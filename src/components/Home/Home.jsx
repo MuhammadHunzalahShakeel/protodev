@@ -45,13 +45,9 @@ const Home = () => {
         {/* </div> */}
       </div>
     </div>
-    <div className="home_protoimg">
-    {/* <img className='img' alt='' id='icon'  src={DroneImage} ></img>
-    <img className='img' alt='' id='icon'  src={CafeImage} ></img>
-    <img className='img' alt='' id='icon'  src={EasilyImage} ></img>
-    <img className='img' alt='' id='icon'  src={TravelImage} ></img> */}
+    {/* <div className="home_protoimg">
     <img className='img' alt='' id='icon'  src={HomeSectionImage} ></img>
-    </div>
+    </div> */}
     </>
   )
 }

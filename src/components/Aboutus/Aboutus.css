@@ -2,15 +2,15 @@
 .about_container{
     background-image: url("../../assets/AboutBackground.svg");
 }
-.leftcontainer{
+/* .about_leftcontainer{
     margin-top: 70px;
-}
+} */
 
 .about_firstheading{
     font-size: 60px;
     color: #007AFF;
     margin: 0 ;
-    margin-top: 50px;
+    margin-top: 100px;
     
 }
 .about_secondheading{

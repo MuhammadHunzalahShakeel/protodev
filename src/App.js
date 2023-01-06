@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 function App() {
   return (
     <>
+    <div className="backgroundiamge"></div>
     <Navbar></Navbar>
     <Home></Home>
     <Aboutus></Aboutus>
