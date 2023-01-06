@@ -1,0 +1,50 @@
+.testimonials_container{
+    background-image: url("../../assets/TestimonialsBackground.svg");
+    
+}
+.testimonails_heading{
+    font-size: 60px;
+    line-height: 100px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: "Neue Machina";
+    text-align: center;
+    align-items: center;
+    display: block;
+    mix-blend-mode: normal;
+    
+}
+.testimonials_firstheading{
+    color: #007AFF;
+}
+.testimonials_subbackground{
+    align-items: center;
+    height: 55%;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.testimonials_paragraph{
+    margin: 0;
+    position: absolute;
+    width: 37.19%;
+    top: 344%;
+    left: 43%;
+    line-height: 35px;
+    font-family: "Neue Machina";
+    display: block;
+    /* text-indent: 50px; */
+    line-height: 1.6;
+    color: #ffffff;
+}
+.testimonails_quote{
+    position: absolute;
+    width: 50px;
+    top: 333%;
+    left: 43%;
+
+    
+    
+}
