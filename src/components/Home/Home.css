@@ -1,0 +1,53 @@
+body {
+    background-image: url("../../assets/HomeBackground.svg");
+    
+}
+
+.container {
+    display: table;
+    width: 100%;
+}
+  
+.leftcontainer{
+  position: absolute;
+  left: 80px;
+  width: 50%;
+  font-family: "Neue Machina";
+  font-weight: 800;
+}
+
+.rightcontainer{
+  position: absolute;
+  color: #ffffff;
+  right: 80px;
+  width: 50%;
+  font-family: "Neue Machina";
+  font-size: 12px;
+}
+.firstheading{
+    font-size: 90px;
+    color: #ffffff;
+    margin: 0 ;
+    margin-top: 50px;
+    
+}
+.secondheading{
+    margin: 0;
+    font-size: 90px;
+    color: #5AFF15;
+}
+
+.sociallinks{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: -10px;
+    list-style: none;
+    align-items: center;  
+}
+.protoimg{
+    margin-top: 400px;
+}
+.protoimg>img{
+    width: 1080px;
+    height: 310px ;
+}

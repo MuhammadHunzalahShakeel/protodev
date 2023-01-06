@@ -1,0 +1,92 @@
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0px 50px;
+    background-color:#02002C;
+    width: auto;
+    height: 100px;
+    
+    
+}
+
+.Logo{
+    justify-self: center;
+    cursor: pointer;
+    width: 10rem;
+    text-align: center;
+    top: 60px;
+}
+
+.navmenu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.nav-links>a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1.7rem 1rem;
+    font-family: "Neue Machina";
+    
+}
+
+.nav-links>a:hover{
+    background: #5AFF15;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.menu-icon>img{
+    width: 20px;
+    height: 20px;
+}
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width:1080px) {
+    .NavbarItems{
+        z-index: 99;
+    }
+
+    .navmenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: #02002C;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        align-items: stretch;
+        padding: 80px 0px 30px 0;
+        margin: 0;
+        z-index: -1;
+    }
+    .nav-links{
+        display: block;
+        widows: 100%;
+        padding: 2rem 0;
+        color: #ffffff;
+
+    }
+    .nav-links:hover{
+        background-color: aqua;
+
+
+    }
+    .menu-icon{
+    display: block;
+    }
+}
+
+/* .fa-bars{
+    color: #ffffff;
+} */
