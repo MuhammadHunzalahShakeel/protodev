@@ -8,7 +8,7 @@ const Aboutus = () => {
   return (
     <>
     <div className='about_container'>
-      <div className="leftcontainer">
+      <div className="about_leftcontainer">
       <span className='about_firstheading'>Who </span>
       <span className='about_secondheading'>Are We?</span>
         <p>Finding the best approach for your needs. Then, transform it into a delightfull interface, pleasure experience with impactful message.</p>
