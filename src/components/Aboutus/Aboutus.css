@@ -1,19 +1,19 @@
-body {
-    /* background-image: url("../../assets/AboutBackground.svg"); */
-    
+
+.about_container{
+    background-image: url("../../assets/AboutBackground.svg");
 }
 .leftcontainer{
     margin-top: 70px;
 }
 
-.firstheading{
+.about_firstheading{
     font-size: 60px;
     color: #007AFF;
     margin: 0 ;
     margin-top: 50px;
     
 }
-.secondheading{
+.about_secondheading{
     margin: 0;
     font-size: 60px;
     color: #000000;

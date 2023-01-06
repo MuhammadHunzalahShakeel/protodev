@@ -1,14 +1,11 @@
-body {
+.home_container {
     background-image: url("../../assets/HomeBackground.svg");
+    display: table;
+    width: 100%;
     
 }
 
-.container {
-    display: table;
-    width: 100%;
-}
-  
-.leftcontainer{
+.home_leftcontainer{
   position: absolute;
   left: 80px;
   width: 50%;
@@ -16,7 +13,7 @@ body {
   font-weight: 800;
 }
 
-.rightcontainer{
+.home_rightcontainer{
   position: absolute;
   color: #ffffff;
   right: 80px;
@@ -24,30 +21,30 @@ body {
   font-family: "Neue Machina";
   font-size: 12px;
 }
-.firstheading{
+.home_firstheading{
     font-size: 90px;
     color: #ffffff;
     margin: 0 ;
     margin-top: 50px;
     
 }
-.secondheading{
+.home_secondheading{
     margin: 0;
     font-size: 90px;
     color: #5AFF15;
 }
 
-.sociallinks{
+.home_sociallinks{
     display: grid;
     grid-template-columns: repeat(4,auto);
     grid-gap: -10px;
     list-style: none;
     align-items: center;  
 }
-.protoimg{
+.home_protoimg{
     margin-top: 400px;
 }
-.protoimg>img{
+.home_protoimg>img{
     width: 1080px;
     height: 310px ;
 }
