@@ -1,5 +1,7 @@
 .contact_container{
     background-color: #ffffff;
+    display: flex;
+    margin-bottom: 10%;
     
 }
 .contact_image{
@@ -30,67 +32,55 @@
 }
 
 
+.contact_leftcontainer{
+  width: 50%;
+  flex: 1;
+  margin-bottom: 30px;
+}
+.contact_rightcontainer{
+  margin-top: 80px;
+  width: 50%;
+  
+}
+.contact_paragraph{
+  margin-right: 20%;
+  font-family: "Neue Machina";
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
+}
+
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: transparent;
+  width: 40%;
+  font-family: "Neue Machina";
+  font-size: 18px;
+  
+}
+
+.contact_firstname:focus {
   outline: none;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+
+.contact_lastname{
+  margin-left: 30px;
+  margin-top: 5%;
 }
-.wrapper{
-  width: 450px;
-  background: #fff;
-  padding: 30px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+.contact_budget{
+  margin-left: 30px;
+  margin-top: 5%;
 }
-.wrapper .input-data{
-  height: 40px;
-  width: 100%;
-  position: relative;
+.contact_subject,.contact_message{
+  display: block;
+  width: 85.5%;
+  margin-top: 5%;
 }
-.wrapper .input-data input{
-  height: 100%;
-  width: 100%;
-  border: none;
-  font-size: 17px;
-  border-bottom: 2px solid silver;
+
+.contact_submitbutton{
+  width: 35%;
+  height: 30%;
+  
 }
-.input-data input:focus ~ label,
-.input-data input:valid ~ label{
-  transform: translateY(-20px);
-  font-size: 15px;
-  color: #4158d0;
-}
-.wrapper .input-data label{
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  color: grey;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-/* .input-data .underline{
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  bottom: 0;
-} */
-/* .input-data .underline:before{
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: #4158d0;
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 0.3s ease;
-} */

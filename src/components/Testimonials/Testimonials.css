@@ -1,6 +1,6 @@
 .testimonials_container{
     background-image: url("../../assets/TestimonialsBackground.svg");
-    height: 570px;
+    height: 590px;
     
 }
 
@@ -14,7 +14,6 @@
     align-items: center;
     display: block;
     mix-blend-mode: normal;
-    
 }
 
 .testimonials_firstheading{

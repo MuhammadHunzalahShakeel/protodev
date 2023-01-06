@@ -1,0 +1,27 @@
+.connect_container{
+    background-image: url("../../assets/ConnectBackground.svg") ;
+    height: 220px;
+}
+.connect_heading{
+    font-weight: 300;
+    font-family: "Neue Machina";
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 5%;
+    position: absolute;
+    margin-left: 10%;
+}
+#connect_linkedin{
+    margin-left: 60%;
+}
+
+li>img{
+    width: 40px;
+    margin-top: 7%;
+    
+}
+.connect_icon{
+    margin-right: 1%;
+    /* margin-top: 5%; */
+    
+}
