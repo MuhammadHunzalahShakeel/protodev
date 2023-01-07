@@ -17,7 +17,7 @@ const Aboutus = () => {
           <img className='about_newbutton' alt=''  src={NewProjectButton} ></img> 
       </div>
       <div className="about_rightcontainer">
-      <img className='aboutimage' alt='' id='icon'  src={AboutImage} ></img>
+      <img className='aboutimage' alt=''   src={AboutImage} ></img>
       </div>
     </div>
     

@@ -1,7 +1,26 @@
 .services_container{
   font-family: "Neue Machina";
   background-color: #EFF7FF;
+  
+  
 }
+.service1{
+  background-color: #EFF7FF;
+  display: flex;
+}
+.para{
+  padding-top: 2%;
+  
+}
+
+.service1>div{
+  /* background-color: green; */
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  width: 100%;
+}
+
 
 .services_heading{
   font-weight: 800;
@@ -10,6 +29,7 @@
 }
 .service_first{
   position: relative;
+  
 }
 .service_paragraph{
   text-align: center;
@@ -23,19 +43,17 @@
 }
 
 .services_number1{
-  width: 150px;
+  width: 100%;
   margin-left: 5%;
 }
-.heading1{
-  font-size: 40px;
-  /* margin-left: 15%; */
-  position: absolute;
-  /* bottom: 8px; */
-  left: 16%;
-  top: 305%;
+
+.service_number1para{
+  margin-left: 40%;
+  margin-right: 26%;
   
 }
-.point{
-  color: #5AFF15;
-  font-size: 40px;
+
+.service_arrowbutton{
+  width: 30%;
+  margin-left: 60%;
 }

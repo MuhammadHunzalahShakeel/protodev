@@ -42,13 +42,6 @@
     color: #5AFF15;
 }
 
-/* .home_sociallinks{
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    grid-gap: -10px;
-    list-style: none;
-    align-items: center;  
-} */
 .home_protoimg{
     margin-top: 400px;
 }
@@ -63,4 +56,10 @@
 .home_newbutton{
     width: 60%;
   height: 30%;
+}
+.home_newbutton:hover{
+    /* width: 60%;
+  height: 30%; */
+  background: url("../../assets/NewProjectButtonHover.svg") no-repeat;
+  z-index: 0;
 }

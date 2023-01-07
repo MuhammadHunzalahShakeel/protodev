@@ -25,7 +25,6 @@
 .aboutimage{
     width: 710px;
     height: 710px;
-    /* margin-left: 10%; */
     clip: rect(0px,60px,200px,0px);
     margin-right: 0;
 }

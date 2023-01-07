@@ -8,7 +8,6 @@
     /* display: flex; */
     /* margin-left: auto;
     margin-right: auto; */
-    
 }
 .footer_image{
     text-align: center;
@@ -59,7 +58,10 @@ li {
 
 }
 
-@media screen and (max-width:1080px){
+@media only screen and (max-width: 980px) {
+    .footer_links{
     
-
-}
+        margin-right: 10px;
+        
+      }
+  }

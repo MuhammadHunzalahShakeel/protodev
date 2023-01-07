@@ -4,7 +4,7 @@
     align-items: center;
     font-size: 1.2rem;
     padding: 0px 50px;
-    background-color:#02002C;
+    background-image: url("../../assets/NavBackground.svg");
     width: auto;
     height: 100px;
     
@@ -38,7 +38,8 @@
 
 .nav-links>a:hover{
     background: #5AFF15;
-    border-radius: 30px;
+    border-radius: 10px;
+    border-width: 10px;
     transition: all 0.2s ease-in-out;
     
 }
@@ -86,7 +87,3 @@
     display: block;
     }
 }
-
-/* .fa-bars{
-    color: #ffffff;
-} */

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Aboutus from './components/Aboutus/Aboutus';
 import Services from "./components/Services/Services";
+import Protfolio from "./components/Protfolio/Protfolio";
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Connect from './components/Connect/Connect';
@@ -18,6 +19,7 @@ function App() {
     <Home></Home>
     <Aboutus></Aboutus>
     <Services></Services>
+    {/* <Protfolio></Protfolio> */}
     <Testimonials></Testimonials>
     <Contact></Contact>
     <Connect></Connect>
