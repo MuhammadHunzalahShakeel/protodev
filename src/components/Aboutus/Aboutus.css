@@ -1,10 +1,14 @@
-
 .about_container{
     background-image: url("../../assets/AboutBackground.svg");
+    display: flex;
 }
-/* .about_leftcontainer{
-    margin-top: 70px;
-} */
+.about_leftcontainer{
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 0px;
+    margin-top: 10%;
+    font-family: "Neue Machina";
+}
 
 .about_firstheading{
     font-size: 60px;
@@ -21,4 +25,12 @@
 .aboutimage{
     width: 710px;
     height: 710px;
+    /* margin-left: 10%; */
+    clip: rect(0px,60px,200px,0px);
+    margin-right: 0;
+}
+
+.about_newbutton{
+  width: 50%;
+  height: 30%;
 }

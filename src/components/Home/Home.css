@@ -1,20 +1,28 @@
 .home_container {
     background-image: url("../../assets/HomeBackground.svg");
-    display: table;
+    display: flex;
     width: 100%;
     
 }
 
 .home_leftcontainer{
-  position: absolute;
-  left: 80px;
+  /* position: absolute; */
+  flex: 1;
+  margin-left: 10%;
+  margin-top: 5%;
   width: 50%;
   font-family: "Neue Machina";
   font-weight: 800;
 }
-
+.home_rightcontainer>p{
+    font-weight: 200;
+    font-size: 18px;
+}
 .home_rightcontainer{
-  position: absolute;
+    margin-left: 10%;
+    margin-right: 11%;
+    margin-top: 10%;
+  
   color: #ffffff;
   right: 80px;
   width: 50%;
@@ -34,17 +42,25 @@
     color: #5AFF15;
 }
 
-.home_sociallinks{
+/* .home_sociallinks{
     display: grid;
     grid-template-columns: repeat(4,auto);
     grid-gap: -10px;
     list-style: none;
     align-items: center;  
-}
+} */
 .home_protoimg{
     margin-top: 400px;
 }
 .home_protoimg>img{
     width: 1080px;
     height: 310px ;
+}
+#icon{
+ margin-top: 20%;
+ margin-right: 10%;
+}
+.home_newbutton{
+    width: 60%;
+  height: 30%;
 }
