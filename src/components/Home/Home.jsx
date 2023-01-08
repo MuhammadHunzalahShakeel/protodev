@@ -31,7 +31,7 @@ const Home = () => {
         <h1 className='home_secondheading'>Copywriters</h1>
       </div>
       <div className="home_rightcontainer">
-        <p>Experienced design team passionate to create visual-approaching solutions to solved your bussiness needs and your user. </p>
+        <p className='home_para'>Experienced design team passionate to create visual-approaching solutions to solved your bussiness needs and your user. </p>
         <div className="button">
           <img className='home_newbutton' alt=''  src={NewProjectButton} ></img>
         </div>

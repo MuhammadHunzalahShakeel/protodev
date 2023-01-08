@@ -77,22 +77,33 @@ li {
     
         padding: 0%;
         margin: 0%;
-        /* align-items: left; */
-        margin-left: 0%;
+        text-align: start;
+        margin-left: 10%;
         margin-bottom: 2%;
-        
       }
       .footer_nav{
-        /* text-align: left; */
+       
         display:flex;
         flex-direction: column;
         
       }
       #footer_home{
-        margin-left: 0%;
+        margin-left: 10%;
         
     }
-    .footer_logo{
-        width: 25%;
+    .footer_image{
+      text-align: start;
+      margin-left: 10%;
     }
+  .footer_logo{
+    width: 40%
+  }
+  li{
+    text-align: start;
+    font-size: 18px;
+  }
+  .footer_container>p{
+    font-size: 10px;
+    text-align: center;
+  }
   }
