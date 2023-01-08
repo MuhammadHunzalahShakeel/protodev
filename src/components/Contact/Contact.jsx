@@ -24,8 +24,10 @@ const Contact = () => {
             <input type="text" class="contact_subject" placeholder="Subject"></input>
             <input type="text" class="contact_message" placeholder="Message"></input>
           </div>
+          
+          <img className='contact_submitbutton' alt=''  src={SubmitButton} ></img>
 
-          <img className='contact_submitbutton' alt='' id='icon'  src={SubmitButton} ></img>
+          
          
         </div>
                 

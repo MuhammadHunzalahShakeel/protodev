@@ -1,11 +1,11 @@
 .services_container{
   font-family: "Neue Machina";
-  background-color: #EFF7FF;
+  background-color: #ffffff;
   
   
 }
 .service1{
-  background-color: #EFF7FF;
+  background-color: #ffffff;
   display: flex;
 }
 .para{
@@ -56,4 +56,34 @@
 .service_arrowbutton{
   width: 30%;
   margin-left: 60%;
+}
+
+@media only screen and (max-width: 760px) {
+  .services_heading{
+      font-weight:bolder;
+      font-family: "Neue Machina";
+      font-size: 36px;
+      margin-top: 10%;
+  }
+  .service_paragraph{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .para{
+    display: none;
+  }
+  .services_number1{
+    width: 120%;
+    
+  }
+  .service_paragraph{
+    
+    margin-bottom: 10%;
+  }
+  .service1{
+    margin-bottom: 5%;
+  }
+
 }

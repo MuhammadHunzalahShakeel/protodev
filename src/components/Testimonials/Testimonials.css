@@ -67,25 +67,20 @@
 
 
 
+@media only screen and (max-width: 760px) {
+    .testimonials_heading{
+        font-weight:bolder;
+        font-family: "Neue Machina";
+        font-size: 36px;
+        width: 200px;
+        align-items: center;
+        line-height: normal;
+        margin-left: 25%;
+        /* margin-right: auto; */
+    }
+   
+    
 
-/* .testimonials_paragraph{
-    margin: 0;
-    position: absolute;
-    width: 37.19%;
-    top: 344%;
-    left: 43%;
-    line-height: 35px;
-    font-family: "Neue Machina";
-    display: block;
-    line-height: 1.6;
-    color: #ffffff;
-}
-.testimonails_quote{
-    position: absolute;
-    width: 50px;
-    top: 333%;
-    left: 43%;
 
     
-    
-} */
+  }
