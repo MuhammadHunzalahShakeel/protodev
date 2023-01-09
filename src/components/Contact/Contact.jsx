@@ -4,10 +4,11 @@ import ContactImage from "../../assets/ContactImage.svg"
 import SubmitButton from "../../assets/SubmitButton.svg"
 const Contact = () => {
   return (
-    <>
-      <div className="contact_container">
+   
+    <section id='connect'>
+    <div className="contact_container">
         <div className="contact_leftcontainer">
-        <img className='contact_image' alt='' id='icon'  src={ContactImage} ></img>
+        <img className='contact_image' alt=''  src={ContactImage} ></img>
         </div>
         <div className="contact_rightcontainer">
           <h1 className="contact_firstheading">Let's Discuss</h1>
@@ -17,7 +18,7 @@ const Contact = () => {
           </div>
           <p className='contact_paragraph'>Finding the best approach for your needs. Then, transform it into a delightfull interface.</p>
           <div className="contact_inputfields">
-            <input type="text" class="contact_firstname" placeholder="First Name"></input>
+            <input type="text" class="contact_firstname"  placeholder="First Name"></input>
             <input type="text" class="contact_lastname" placeholder="Last Name"></input>
             <input type="text" class="contact_emailaddress" placeholder="Email Address"></input>
             <input type="text" class="contact_budget" placeholder="Budget"></input>
@@ -33,7 +34,8 @@ const Contact = () => {
                 
       </div>
         
-    </>
+    </section>
+     
   )
 }
 

@@ -37,10 +37,11 @@
 }
 
 .nav-links>a:hover{
-    background: #5AFF15;
+    /* background: #5AFF15;
     border-radius: 10px;
     border-width: 10px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; */
+    color: #5AFF15;
     
 }
 

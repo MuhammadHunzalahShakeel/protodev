@@ -51,13 +51,17 @@
 }
 #icon{
  margin-top: 20%;
- margin-right: 10%;
-}
-.home_newbutton{
-    width: 60%;
-  height: 30%;
+ margin-right: 4%;
+ width: 13%;
 }
 
+.home_newbutton{
+    width: 60%;
+  
+}
+.home_para{
+ width: 100%;
+}
 
 
 

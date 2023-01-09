@@ -8,8 +8,9 @@ import ProtfolioDesign5 from "../../assets/ProtfolioDesign5.svg"
 
 const Protfolio = () => {
   return (
-    <>
-      <div className="protfolio_container">
+  
+    <section id='protfolio'>
+          <div className="protfolio_container">
         <div className="protfolio_heading">
             <h1 className='protfolio_heading1'>We Create And</h1>
             <h1 className='protfolio_heading2'>Innovate</h1>
@@ -42,7 +43,8 @@ const Protfolio = () => {
         </div> */}
       </div>
         
-    </>
+    </section>
+   
   )
 }
 

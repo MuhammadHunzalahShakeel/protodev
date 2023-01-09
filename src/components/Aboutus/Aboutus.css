@@ -30,10 +30,14 @@
 }
 
 .about_newbutton{
-  width: 50%;
-  height: 30%;
+  width: 20%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  
 }
-
+.about_para{
+    width: 50%;
+}
 @media only screen and (max-width: 760px) {
     .about_container{
         background-image: url("../../assets/AboutBackgroundMobile.svg");
@@ -48,7 +52,7 @@
     .aboutimage{
         display: none;
     }
-    p{
+    .about_para{
         width: 90%;
     }
     .about_newbutton{

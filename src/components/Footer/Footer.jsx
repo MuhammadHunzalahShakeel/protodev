@@ -4,8 +4,9 @@ import Logo from "../../assets/Logo.svg"
 
 const Footer = () => {
   return (
-    <>
-      <div className="footer_container">
+    
+    <section id='footer'>
+    <div className="footer_container">
         <div className="footer_image">
             <img className='footer_logo' alt=''  src={Logo} ></img>
         </div>
@@ -20,8 +21,8 @@ const Footer = () => {
         <div className="footer_line"></div>
         <p className="footer_paragraph">© 2023 . All Rights Reserved by ProtoDev.Co</p>
       </div>
-        
-    </>
+    </section>
+  
   )
 }
 

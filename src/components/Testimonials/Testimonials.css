@@ -2,6 +2,7 @@
     background-image: url("../../assets/TestimonialsBackground.svg");
     height: 590px;
     
+    
 }
 
 .testimonials_heading{
@@ -14,10 +15,12 @@
     align-items: center;
     display: block;
     mix-blend-mode: normal;
+    
 }
 
 .testimonials_firstheading{
     color: #007AFF;
+   
 }
 .testimonials_subbackground{
     align-items: center;

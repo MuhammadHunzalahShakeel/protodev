@@ -1,6 +1,7 @@
 .services_container{
   font-family: "Neue Machina";
   background-color: #ffffff;
+  margin-bottom: 5%;
   
   
 }
@@ -8,7 +9,7 @@
   background-color: #ffffff;
   display: flex;
 }
-.para{
+.services1_para{
   padding-top: 2%;
   
 }
@@ -26,6 +27,7 @@
   font-weight: 800;
   font-size: 60px;
   text-align: center;
+  margin-top: 10%;
 }
 .service_first{
   position: relative;
@@ -35,6 +37,7 @@
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 5%;
 }
 .services_line{
   height: 2;
@@ -57,6 +60,15 @@
   width: 30%;
   margin-left: 60%;
 }
+.divider{
+  height: 1px;
+  width: 94%;
+  background-color: #0E0638;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  }
+  
 
 @media only screen and (max-width: 760px) {
   .services_heading{
@@ -71,7 +83,7 @@
     margin-left: auto;
     text-align: center;
   }
-  .para{
+  .services1_para{
     display: none;
   }
   .services_number1{

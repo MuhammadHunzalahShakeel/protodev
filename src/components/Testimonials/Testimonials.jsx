@@ -7,9 +7,9 @@ import testimonialsBackwardButton from "../../assets/TestimonialsBackwardButton.
 
 const Testimonials = () => {
   return (
-    <>
-    
-      <div className="testimonials_container">
+ 
+      <section id='testimonials'>
+           <div className="testimonials_container">
         <div className="testimonials_heading" >
           <span className="testimonials_firstheading">Client</span>
           <span className="testimonials_secondheading"> testimonials</span>
@@ -26,8 +26,8 @@ const Testimonials = () => {
         </div>
         
       </div>
-        
-    </>
+      </section>
+
   )
 }
 
