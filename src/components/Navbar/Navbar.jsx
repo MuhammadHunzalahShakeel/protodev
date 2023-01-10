@@ -35,6 +35,16 @@ class Navbar extends Component {
             <img className='Logo' id='Navmenuicon'  src={Logo} ></img>
            </div>
         <ul className={this.state.clicked ? "navmenu active" : "navmenu"}>
+          <li className='nav-links' id='no-mobile1'>
+            <a href="">Home</a>
+          </li>
+          <li className='nav-links' id='no-mobile2'>
+            <a href="">Services</a>
+          </li>
+          <li className='nav-links' id='no-mobile3'>
+            <a href="">Protfolio</a>
+          </li>
+          
           <li className='nav-links'>
             <a href="">Testimonials</a>
           </li>
