@@ -1,4 +1,5 @@
 import React from 'react'
+import Typewriter from "typewriter-effect"
 import {BrowserRouter,Link,Routes,Route, } from "react-router-dom"
 import "./Home.css"
 import NewProjectButton from "../../assets/NewProjectButton.svg"
@@ -27,11 +28,28 @@ const Home = () => {
   return (
     
     <section id='home'>
-    <div className='home_container'  style={myStyle}>
+    <div className='home_container'  >
       
       <div className="home_leftcontainer">
         <h1 className='home_firstheading'>We Are</h1>
-        <h1 className='home_secondheading'>Copywriters</h1>
+        {/* <h1 className='home_secondheading'>Copywriters</h1> */}
+        <h1 className='home_secondheading'><Typewriter
+          options={{
+            strings: [
+              'Web Developer', 
+              'App Developer', 
+              'UI UX Designer',
+              'Copywriter',
+              'Social Media Manager',
+              '<span>Social Media Maketer</span>',
+              '<span>Social media</span>',
+            ],
+            autoStart: true,
+            loop: true,
+          }}
+        /></h1>
+        
+        
       </div>
       <div className="home_rightcontainer">
         <p className='home_para'>Experienced design team passionate to create visual-approaching solutions to solved your bussiness needs and your user. </p>

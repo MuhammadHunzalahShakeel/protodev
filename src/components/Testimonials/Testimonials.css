@@ -1,8 +1,7 @@
 .testimonials_container{
     background-image: url("../../assets/TestimonialsBackground.svg");
     height: 590px;
-    
-    
+
 }
 
 .testimonials_heading{
@@ -67,11 +66,18 @@
     width: 38px;
     
 }
+.testimonials_subbackgroundmobile{
+    display: none;
+}
 
 
 
 
 @media only screen and (max-width: 760px) {
+    .testimonials_container{
+    background-image: none;
+    height: 15%;
+    }
     .testimonials_heading{
         font-weight:bolder;
         font-family: "Neue Machina";
@@ -80,11 +86,50 @@
         align-items: center;
         line-height: normal;
         margin-left: 25%;
-        /* margin-right: auto; */
     }
    
+    .testimonials_subbackground{
     
+    height: 70%;
+    width: 80%;
+    }
+    .testimonials_paragraph{
+        width: 60%;
+        font-size: 10px;
+        left: 25%;
+        right: 24%;
+        top: 43%;
+    }
+    .testimonials_subbackground{
+        display: none;
+    }
+    .testimonials_subbackgroundmobile{
+        display: block;
+        align-items: center;
+        height: 55%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+    .testimonials_quote{
+        position: absolute;
+        left: 25%;
+        right: 24%;
+        top: 30%;
+        width: 30px;
+        
+    }
+    .testimonials_forwardbutton{
+        
+        width: 25px;
+        
+    }
+    .testimonials_backwardbutton{
+        width: 25px;
+        left: 70%;
 
-
+        
+    }
     
   }
