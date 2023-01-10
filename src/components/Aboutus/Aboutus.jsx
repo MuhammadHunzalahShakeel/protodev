@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Aboutus.css"
 import NewProjectButton from "../../assets/NewProjectButton.svg"
-import AboutImage from "../../assets/AboutImage.svg"
+
 
 
 const Aboutus = () => {

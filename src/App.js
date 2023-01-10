@@ -22,7 +22,7 @@ function App() {
     <Home></Home>
     <Aboutus></Aboutus>
     <Services></Services>
-    
+    <Protfolio></Protfolio>
     <Testimonials></Testimonials>
     <Contact></Contact>
     <Connect></Connect>
