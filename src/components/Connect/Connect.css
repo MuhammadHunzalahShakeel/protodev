@@ -23,6 +23,9 @@
     margin-right: 0.5%;  
 }
 @media only screen and (max-width: 760px) {
+    .connect_container{
+        background-size: cover;
+    }
     .connect_heading{
         font-weight:bolder;
         font-family: "Neue Machina";

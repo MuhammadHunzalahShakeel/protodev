@@ -59,6 +59,9 @@ li {
 }
 
 @media only screen and (max-width: 980px) {
+      .footer_container{
+        background-size: cover;
+    }
     .footer_links{
     
         /* padding: 0%; */
