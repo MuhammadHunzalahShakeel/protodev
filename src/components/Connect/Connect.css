@@ -24,7 +24,7 @@
 }
 @media only screen and (max-width: 760px) {
     .connect_container{
-        background-size: cover;
+        height: 200px;
     }
     .connect_heading{
         font-weight:bolder;

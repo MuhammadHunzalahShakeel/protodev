@@ -41,8 +41,6 @@ const Home = () => {
               'UI UX Designer',
               'Copywriter',
               'Social Media Manager',
-              '<span>Social Media Maketer</span>',
-              '<span>Social media</span>',
             ],
             autoStart: true,
             loop: true,
