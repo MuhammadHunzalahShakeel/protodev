@@ -79,6 +79,13 @@
       width: 200px;
       
   }
+  .home_leftcontainer{
+    margin-top: 0%;
+    
+  }
+  .home_firstheading{
+    margin-top: 0;
+}
   .home_container {
     display: block; 
     background-size: cover;
