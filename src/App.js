@@ -19,14 +19,14 @@ function App() {
     <>
     <div className="backgroundiamge"></div>
     <Navbar></Navbar>
-    <Home></Home>
+    {/* <Home></Home>
     <Aboutus></Aboutus>
     <Services></Services>
     <Protfolio></Protfolio>
     <Testimonials></Testimonials>
     <Contact></Contact>
     <Connect></Connect>
-    <Footer></Footer>
+    <Footer></Footer> */}
     
     </>
   );
