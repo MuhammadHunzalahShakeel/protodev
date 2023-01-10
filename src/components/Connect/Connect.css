@@ -1,0 +1,44 @@
+.connect_container{
+    background-image: url("../../assets/ConnectBackground.svg") ;
+    height: 220px;
+}
+.connect_heading{
+    font-weight: 300;
+    font-family: "Neue Machina";
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 5%;
+    position: absolute;
+    margin-left: 10%;
+}
+#connect_linkedin{
+    margin-left: 60%;
+}
+
+.connect_icon{
+    width: 40px;
+    margin-top: 7%;  
+}
+.connect_icon{
+    margin-right: 0.5%;  
+}
+@media only screen and (max-width: 760px) {
+    .connect_heading{
+        font-weight:bolder;
+        font-family: "Neue Machina";
+        font-size: 36px;
+        width: 200px;
+        
+    }
+    #connect_linkedin{
+        margin-left: 30%;
+        
+    }
+    li>img{
+        margin-top: 30%;
+        
+    }
+    .connect_icon{
+        margin-right: 3%;
+    }
+  }

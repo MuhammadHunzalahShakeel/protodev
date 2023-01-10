@@ -1,0 +1,7 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.backgroundimage{
+  background: url("./assets/HomeBackground.svg") no-repeat center center fixed;
+}
