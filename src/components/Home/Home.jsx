@@ -51,9 +51,10 @@ const Home = () => {
       </div>
       <div className="home_rightcontainer">
         <p className='home_para'>Experienced design team passionate to create visual-approaching solutions to solved your bussiness needs and your user. </p>
-        <div className="button">
-          <img className='home_newbutton' alt=''  src={NewProjectButton} ></img>
-        </div>
+        {/* <div className="button"> */}
+          <a href="#contact"><img className='home_newbutton' alt=''  src={NewProjectButton} ></img></a>
+          
+        {/* </div> */}
         {/* <div className="sociallinks"> */}
           <ul className="home_sociallinks">
             <li><a href="https://www.linkedin.com/company/protodev/" rel='noopener' target='_blank'><img className='LinkedinIcon' alt='' id='icon'  src={LinkedinIcon} ></img></a></li>

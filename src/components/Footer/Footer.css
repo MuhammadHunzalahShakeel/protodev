@@ -21,6 +21,10 @@ li {
     display: inline;
     
   }
+  .footer_links>a{
+    text-decoration: none;
+    color: #ffffff;
+  }
 .footer_links{ 
   margin-right: 50px;
   color: white;

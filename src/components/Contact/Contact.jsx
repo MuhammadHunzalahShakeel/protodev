@@ -20,7 +20,7 @@ const Contact = () => {
 
   return (
    
-    <section id='connect'>
+    <section id='contact'>
     <div className="contact_container">
         <div className="contact_leftcontainer">
         <img className='contact_image' alt=''  src={ContactImage} ></img>

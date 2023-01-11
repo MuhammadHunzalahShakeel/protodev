@@ -22,13 +22,13 @@ class Navbar extends Component {
         </div> */}
         <ul className='navmenu'>
           <li className='nav-links'>
-            <a href="">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className='nav-links'>
-            <a href="">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li className='nav-links'>
-            <a href="">Protfolio</a>
+            <a href="#protfolio">Protfolio</a>
           </li>
         </ul>
            <div>
@@ -36,23 +36,23 @@ class Navbar extends Component {
            </div>
         <ul className={this.state.clicked ? "navmenu active" : "navmenu"}>
           <li className='nav-links' id='no-mobile1'>
-            <a href="">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className='nav-links' id='no-mobile2'>
-            <a href="">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li className='nav-links' id='no-mobile3'>
-            <a href="">Protfolio</a>
+            <a href="#protfolio">Protfolio</a>
           </li>
           
           <li className='nav-links'>
-            <a href="">Testimonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li className='nav-links'>
-            <a href="">About Us</a>
+            <a href="#aboutus">About Us</a>
           </li>
           <li className='nav-links'>
-            <a href="">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
         <div className="menu-icon" onClick={this.handleClick}>
