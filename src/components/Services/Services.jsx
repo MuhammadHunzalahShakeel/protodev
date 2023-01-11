@@ -35,8 +35,8 @@ const Services = () => {
             Then, transform it into a delightfull interface, pleasure experience with impactful message.</div>
         <div onClick={()=>setShow(!show)}><img  className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show && <div><p className='services1_innerpara'>Finding the best approach for your needs. 
-          Then, transform it into a delightfull interface, pleasure experience with impactful message.</p>
+        {show && <div className='services1_innerpara'>Finding the best approach for your needs. 
+          Then, transform it into a delightfull interface, pleasure experience with impactful message.
           <ul className='services1_innerul'>
             <li>Low Fidelity Wireframes</li>
             <li>High Fidelity Wireframes</li>
