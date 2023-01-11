@@ -11,13 +11,13 @@
     text-align: center;
 }
 
-ul{
+.footer_nav{
     color: #ffffff;
     list-style-type: none;
   margin: 0;
   padding: 0;
 }
-li {
+.footer_nav>li {
     display: inline;
     
   }
@@ -111,7 +111,7 @@ li {
   .footer_logo{
     width: 35%
   }
-  li{
+  .footer_nav>li{
     text-align: start;
     font-size: 18px;
   }

@@ -22,6 +22,16 @@
 .connect_icon{
     margin-right: 0.5%;  
 }
+.connect_ul{
+    list-style-type: none;
+    
+}
+.connect_ul>li{
+    display: inline;
+}
+.connect_li{
+    display: inline;
+}
 @media only screen and (max-width: 760px) {
     .connect_container{
         background-repeat: no-repeat;
