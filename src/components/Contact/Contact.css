@@ -4,6 +4,14 @@
     margin-bottom: 10%;
     
 }
+/* .contact_subbut{
+ background-image: url("../../assets/SubmitButton.svg");
+ background-repeat: no-repeat;
+ width: 35%;
+ height: 35%;
+  margin-top: 10%;
+  outline: none;
+} */
 .contact_image{
     width: 441px;
     height: 675px;
