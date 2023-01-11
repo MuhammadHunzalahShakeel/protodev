@@ -68,7 +68,22 @@
   margin-bottom: 3%;
   margin-top: 3%;
   }
+  .services1_innerpara{
+    margin-left: 10%;
+    width: 70%;
+  }
   
+.services1_innerul{
+  color: black;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-gap: 10px;
+  align-items: center;
+}
+.services1_innerul>li{
+  list-style-type: circle;
+}
 
 @media only screen and (max-width: 760px) {
   .services_heading{
