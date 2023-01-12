@@ -33,7 +33,7 @@ const Contact = () => {
               <span className="contact_secondheading1">Your</span>
               <span className="contact_secondheading2"> Ideas</span>
           </div>
-          <p className='contact_paragraph'>Finding the best approach for your needs. Then, transform it into a delightfull interface.</p>
+          <p className='contact_paragraph'>We love listening your ideas and we make sure that our clients are always satisfied with the services provided. Just tell us what you need and wait for the best results ever.</p>
           <div className="contact_inputfields">
             <form ref={form} onSubmit={sendEmail}>
               <input type="text" name='user_firstname' class="contact_firstname"  placeholder="First Name" required></input>
