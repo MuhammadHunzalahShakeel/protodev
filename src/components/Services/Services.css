@@ -1,3 +1,4 @@
+
 .services_container{
   font-family: "Neue Machina";
   background-color: #ffffff;
@@ -75,7 +76,6 @@
   
 .services1_innerul{
   color: black;
-  
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(2,auto);
@@ -86,8 +86,6 @@
 .services1_innerul>li{
   /* list-style-type: circle; */
   margin-bottom: 5%;
-  margin-right: 50%;
-
 }
 
 @media only screen and (max-width: 760px) {
@@ -119,7 +117,6 @@
   }
   .services1_innerul>li{
     font-size: 16px;
-    margin-right: 0%;
     
   }
   .services1_innerul{

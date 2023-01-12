@@ -1,18 +1,23 @@
 .home_container {
     background-image: url("../../assets/HomeBackground.svg");
     display: flex;
-    /* width: 100%;
-    height: 900px; */
+    /* width: 100%; */
+    height: 650px;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     
 }
-
+.home_container{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  grid-gap: 10px;
+  /* align-items: center; */
+}
 .home_leftcontainer{
   /* position: absolute; */
   flex: 1;
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-left: 20%;
+  margin-top: 10%;
   width: 50%;
   font-family: "Neue Machina";
   font-weight: bolder;
@@ -23,12 +28,12 @@
     
 }
 .home_rightcontainer{
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 11%;
-    margin-top: 10%;
+    margin-top: 20%;
     color: #ffffff;
     right: 80px;
-    width: 50%;
+    width: 52%;
     font-family: "Neue Machina";
     font-size: 12px;
     
@@ -58,13 +63,22 @@
     height: 310px ;
 }
 #icon{
- margin-top: 20%;
+ margin-top: 10%;
  margin-right: 4%;
+ margin-left: 0%;
  width: 13%;
 }
-
+.home_sociallinks{
+  list-style-type: none;
+  margin-block-start: 1em;
+  padding: 0%;
+}
+.home_sociallinks>li{
+  display: inline;
+}
 .home_newbutton{
     width: 60%;
+    margin-top: 5%;
   
 }
 .home_para{
@@ -83,6 +97,11 @@
   }
   .home_leftcontainer{
     margin-top: 0%;
+    margin-left: 10%;
+    
+  }
+  .home_rightcontainer{
+    margin-left: 10%;
     
   }
   .home_firstheading{

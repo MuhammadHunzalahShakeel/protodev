@@ -7,21 +7,27 @@ import ServicesNumber4 from "../../assets/ServicesNumber4.svg"
 import ServicesNumber5 from "../../assets/ServicesNumber5.svg"
 import ServicesArrowButton from "../../assets/ServicesArrowButton.svg"
 
-
+// function changeImage() {
+//   return {
+//     let: displayImage = document.getElementById('serviceimage1')
+//     if (displayImage.src.match({ServicesArrowButton})){
+//       displayImage.src={ServicesNumber2}
+//     }else{
+//       displayImage.src={ServicesArrowButton}
+//     }
+//   };
+// }
 
 const Services = () => {
-  // const[showtab,setShowtab]=useState(1);
-
-  // const handletab=(e)=>{
-  //   setShowtab(e);
-  // }
-  // className={showtab===1 ? "nav-link active" : "nav-link" } onClick={()=>handletab(1)}
+  
 
   const[show1,setShow1]=useState(false);
   const[show2,setShow2]=useState(false);
   const[show3,setShow3]=useState(false);
   const[show4,setShow4]=useState(false);
   const[show5,setShow5]=useState(false);
+  
+ 
   return (
    
     <section id='services'>
@@ -37,7 +43,7 @@ const Services = () => {
         <div><img className='services_number1' alt='' src={ServicesNumber1} ></img></div>
         <div className='services1_para'>Finding the best approach for your needs. 
             Then, transform it into a delightfull interface, pleasure experience with impactful message.</div>
-        <div onClick={()=>setShow1(!show1)}><img  className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
+        <div onClick={()=>setShow1(!show1)}><img id='serviceimage1'  className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
         {show1 && <div className='services1_innerpara'>Finding the best approach for your needs. 
           Then, transform it into a delightfull interface, pleasure experience with impactful message.
