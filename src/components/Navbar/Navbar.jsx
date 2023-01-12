@@ -36,23 +36,23 @@ class Navbar extends Component {
            </div>
         <ul className={this.state.clicked ? "navmenu active" : "navmenu"}>
           <li className='nav-links' id='no-mobile1'>
-            <a href="#home">Home</a>
+            <a  onClick={this.handleClick} href="#home">Home</a>
           </li>
           <li className='nav-links' id='no-mobile2'>
-            <a href="#services">Services</a>
+            <a onClick={this.handleClick} href="#services">Services</a>
           </li>
           <li className='nav-links' id='no-mobile3'>
-            <a href="#protfolio">Protfolio</a>
+            <a  onClick={this.handleClick} href="#protfolio">Protfolio</a>
           </li>
           
           <li className='nav-links'>
-            <a href="#testimonials">Testimonials</a>
+            <a  onClick={this.handleClick} href="#testimonials">Testimonials</a>
           </li>
           <li className='nav-links'>
-            <a href="#aboutus">About Us</a>
+            <a  onClick={this.handleClick} href="#aboutus">About Us</a>
           </li>
           <li className='nav-links'>
-            <a href="#contact">Contact Us</a>
+            <a onClick={this.handleClick} href="#contact">Contact Us</a>
           </li>
         </ul>
         <div className="menu-icon" onClick={this.handleClick}>
