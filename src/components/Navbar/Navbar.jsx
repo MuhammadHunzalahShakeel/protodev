@@ -25,10 +25,10 @@ class Navbar extends Component {
             <a href="#home">Home</a>
           </li>
           <li className='nav-links'>
-            <a href="#services">Services</a>
+            <a href="#aboutus">About us</a>
           </li>
           <li className='nav-links'>
-            <a href="#protfolio">Protfolio</a>
+            <a href="#services">Services</a>
           </li>
         </ul>
            <div>
@@ -39,17 +39,19 @@ class Navbar extends Component {
             <a  onClick={this.handleClick} href="#home">Home</a>
           </li>
           <li className='nav-links' id='no-mobile2'>
-            <a onClick={this.handleClick} href="#services">Services</a>
+            <a  onClick={this.handleClick} href="#aboutus">About us</a>
+            
           </li>
           <li className='nav-links' id='no-mobile3'>
-            <a  onClick={this.handleClick} href="#protfolio">Protfolio</a>
+            <a onClick={this.handleClick} href="#services">Services</a>
+            
           </li>
           
           <li className='nav-links'>
-            <a  onClick={this.handleClick} href="#testimonials">Testimonials</a>
+            <a  onClick={this.handleClick} href="#protfolio">Protfolio</a>
           </li>
           <li className='nav-links'>
-            <a  onClick={this.handleClick} href="#aboutus">About Us</a>
+            <a  onClick={this.handleClick} href="#testimonials">Testimonials</a>
           </li>
           <li className='nav-links'>
             <a onClick={this.handleClick} href="#contact">Contact Us</a>
