@@ -1,6 +1,7 @@
 .footer_container{
     background-image: url("../../assets/FooterBackground.svg");
     height: 350px;
+    background-size: cover;
 }
 .footer_logo{
     width: 15%;
