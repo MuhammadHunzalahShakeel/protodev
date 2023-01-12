@@ -16,7 +16,7 @@ const Connect = () => {
           Connect With Us
         </div> */}
         <ul className='connect_ul'>
-          <li className="connect_heading">Contact With Us</li>
+          <li className="connect_heading">Connect With Us</li>
           {/* <div className="connect_li"> */}
 
           <li className='connect_icon' id='connect_linkedin'><a href="https://www.linkedin.com/company/protodev/" rel='noopener' target='_blank'><img className='connect_icon' src={LinkedinIcon} alt="" /></a></li>
