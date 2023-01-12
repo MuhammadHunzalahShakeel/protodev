@@ -24,6 +24,7 @@ const Protfolio = () => {
         <div className="protfolio_para">We design a reflection of your brand and our aim is to help you in engaging your target audience. We design and create online solutions that increase company productivity and resonate with brand image, from web apps to client portals and everything in between.</div>
         <div >
         <img className='protfolio_image' alt=''  src={ProtfolioImage} ></img>
+        <img className='protfolio_image2' alt=''  src={ProtfolioImage} ></img>
         </div>
         {/* <div className="protfolio_designimages">
             <img className='protfolio_designimages1' alt=''  src={ProtfolioDesign1} ></img>

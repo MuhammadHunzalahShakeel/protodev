@@ -1,6 +1,6 @@
 .protfolio_container{
     background-image: url("../../assets/ProtfolioBackground.svg");
-    height: 950px;
+    height: 1550px;
     font-family: "Neue Machina";
     
 }
@@ -92,6 +92,11 @@
 
 .protfolio_image{
     margin-left: 10%;
+    width: 80%;
+}
+.protfolio_image2{
+    margin-left: 10%;
+    margin-top: 2%;
     width: 80%;
 }
 
