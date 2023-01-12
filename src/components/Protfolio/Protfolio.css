@@ -1,6 +1,7 @@
 .protfolio_container{
     background-image: url("../../assets/ProtfolioBackground.svg");
-    height: 1550px;
+    height: 950px;
+    /* height: 1550px; */
     font-family: "Neue Machina";
     
 }
@@ -103,9 +104,10 @@
 
 @media only screen and (max-width: 760px) {
     .protfolio_container{
+        /* height: 1050px; */
+        /* height: 650px; */
         background-size: cover;
-        
-        
+
     }
     .protfolio_heading>h1{
         font-weight:bolder;
