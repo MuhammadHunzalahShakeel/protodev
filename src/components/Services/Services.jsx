@@ -114,8 +114,7 @@ const Services = () => {
         <div className='services1_para'>Our social media management services at Protodev help businesses create and execute a comprehensive strategy to increase brand awareness, engage with their audience and drive business growth. </div>
         <div onClick={()=>setShow6(!show6)}><img className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show6 && <div className='services1_innerpara'>Finding the best approach for your needs. 
-          Then, transform it into a delightfull interface, pleasure experience with impactful message.Our team of experts will work with you to understand your business and create content that aligns with your brand voice and message. We specialize in managing social media platforms such as Facebook, Instagram, Twitter, LinkedIn, etc. and we use data-driven insights to optimize and measure the success of your campaign. 
+        {show6 && <div className='services1_innerpara'>Our team of experts will work with you to understand your business and create content that aligns with your brand voice and message. We specialize in managing social media platforms such as Facebook, Instagram, Twitter, LinkedIn, etc. and we use data-driven insights to optimize and measure the success of your campaign. 
           <ul className='services1_innerul'>
             <li>Social media account setup and optimization</li>
             <li>Social media content creation and scheduling</li>
