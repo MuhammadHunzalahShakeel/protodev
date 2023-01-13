@@ -10,28 +10,25 @@
     margin-top: 50px;
     margin-left: 100px;
 }
-
 .contact_firstheading{
     color: #141414;
-    font-weight: 800;
+    font-weight: bolder;
     font-family: "Neue Machina";
     font-size: 60px;
     margin:0px;
     padding: 0px;
+    display: inline;
 }
 .contact_secondheading{
     color: #141414;
-    font-weight: 800;
+    font-weight: bolder;
     font-family: "Neue Machina";
     font-size: 60px;
 }
-
 .contact_secondheading2{
     color: #007AFF;
     
 }
-
-
 .contact_leftcontainer{
   width: 50%;
   flex: 1;
@@ -45,10 +42,7 @@
 .contact_paragraph{
   margin-right: 20%;
   font-family: "Neue Machina";
-
 }
-
-
 input {
   border-top-style: hidden;
   border-right-style: hidden;
@@ -58,11 +52,8 @@ input {
   width: 40%;
   font-family: "Neue Machina";
   font-size: 18px;
-  outline: none;
-  
+  outline: none; 
 }
-
-
 .contact_lastname{
   margin-left: 30px;
   margin-top: 5%;
@@ -76,16 +67,29 @@ input {
   width: 85.5%;
   margin-top: 5%;
 }
-
 .contact_submitbutton{
-  width: 35%;
-  margin-top: 10%;
+  width: 58%;
+  margin-top: 15%;
+  margin-left: 0%;
+  margin-right: 40%;
 }
-
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
 @media only screen and (max-width: 760px) {
   .contact_image{
     display: none;
   }
+  .contact_container{
+    
+    display:block;
+    }
   .contact_firstheading,.contact_secondheading{
     font-weight:bolder;
     font-family: "Neue Machina";
@@ -129,14 +133,12 @@ input {
     width: 160%;
     margin-top: 30%;    
   }
-
-  
   .contact_submitbutton{
     margin-top: 20%;
-    width: 60%;
+    width: 80%;
     display: block;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-right: auto;
-    
+    align-items: center;
   }
 }

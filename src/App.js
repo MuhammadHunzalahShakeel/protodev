@@ -25,7 +25,7 @@ function App() {
     <Protfolio></Protfolio>
     <Testimonials></Testimonials>
     <Contact></Contact>
-    <Connect></Connect>
+    <Connect></Connect> 
     <Footer></Footer>
     
     </>
