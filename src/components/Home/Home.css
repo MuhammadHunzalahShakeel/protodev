@@ -16,7 +16,7 @@
   margin-left: 20%;
   margin-top: 10%;
   width: 50%;
-  font-family: "Neue Machina";
+  /* font-family: "Neue Machina"; */
   font-weight: bolder;
 }
 .home_rightcontainer>p{
@@ -30,7 +30,7 @@
     color: #ffffff;
     right: 80px;
     width: 52%;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
     font-size: 12px;
 }
 .home_firstheading{
@@ -78,7 +78,7 @@
 @media only screen and (max-width: 760px) {
   .home_firstheading,.home_secondheading{
       font-weight:bolder;
-      font-family: "Neue Machina";
+      /* font-family: "Neue Machina"; */
       font-size: 45px;
       width: 200px;  
   }

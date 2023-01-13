@@ -2,7 +2,7 @@
     background-image: url("../../assets/ProtfolioBackground.svg");
     /* height: 950px; */
     height: 1550px;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
     
 }
 
@@ -111,7 +111,7 @@
     }
     .protfolio_heading>h1{
         font-weight:bolder;
-        font-family: "Neue Machina";
+        /* font-family: "Neue Machina"; */
         font-size: 36px;
         
         
@@ -131,7 +131,7 @@
     .protfolio_container{
         background-image: url("../../assets/ProtfolioBackground.svg");
         height: 530px;
-        font-family: "Neue Machina";
+        /* font-family: "Neue Machina"; */
     }
     
   

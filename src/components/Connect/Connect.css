@@ -4,7 +4,7 @@
 }
 .connect_heading{
     font-weight: bolder;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
     font-size: 60px;
     color: #ffffff;
     padding-top: 5%;
@@ -41,7 +41,7 @@
     }
     .connect_heading{
         font-weight:bolder;
-        font-family: "Neue Machina";
+        /* font-family: "Neue Machina"; */
         font-size: 36px;
         width: auto;
         margin-left: 7%;
