@@ -13,7 +13,7 @@ const Testimonials = () => {
   //   {text3: "3 Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message."},
   //   {text4: "4 Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message."}
   // ];
-  const quotes=["1st Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message.",
+  const quotes=["I'm good to go. Great job, I will definitely be ordering again! Needless to say we are extremely satisfied with the results.- Edeline G.",
                 "2nd Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message.",
                 "3rd Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message.",
                 "4th Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message.",
