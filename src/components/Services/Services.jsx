@@ -8,27 +8,13 @@ import ServicesNumber5 from "../../assets/ServicesNumber5.svg"
 import ServicesNumber6 from "../../assets/ServicesNumber6.svg"
 import ServicesArrowButton from "../../assets/ServicesArrowButton.svg"
 
-// function changeImage() {
-//   return {
-//     let: displayImage = document.getElementById('serviceimage1')
-//     if (displayImage.src.match({ServicesArrowButton})){
-//       displayImage.src={ServicesNumber2}
-//     }else{
-//       displayImage.src={ServicesArrowButton}
-//     }
-//   };
-// }
-
 const Services = () => {
-  
-
   const[show1,setShow1]=useState(false);
   const[show2,setShow2]=useState(false);
   const[show3,setShow3]=useState(false);
   const[show4,setShow4]=useState(false);
   const[show5,setShow5]=useState(false);
   const[show6,setShow6]=useState(false);
-  
  
   return (
    
@@ -148,13 +134,8 @@ const Services = () => {
             <li>App Design Design</li>
           </ul>
         </div>}
-
-
-                
       </div>
     </section>
-     
-   
   )
 }
 

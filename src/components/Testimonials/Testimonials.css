@@ -1,9 +1,7 @@
 .testimonials_container{
     background-image: url("../../assets/TestimonialsBackground.svg");
     height: 590px;
-
 }
-
 .testimonials_heading{
     font-size: 60px;
     line-height: 100px;
@@ -15,13 +13,9 @@
     display: block;
     mix-blend-mode: normal;
     padding-top: 10%;
-    
 }
-
-
 .testimonials_firstheading{
     color: #007AFF;
-   
 }
 .testimonials_subbackground{
     align-items: center;
@@ -30,7 +24,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 .testimonials_subcontainer{
     position: relative;
@@ -43,7 +36,6 @@
     top: 40%;
     font-family: "Neue Machina";
     color: #ffffff;
-
 }
 .testimonials_quote{
     position: absolute;
@@ -51,29 +43,22 @@
     right: 24%;
     top: 25%;
     width: 50px;
-    
 }
 .testimonials_forwardbutton{
     position: absolute;
     left: 78%;
     top: 70%;
     width: 38px;
-    
 }
 .testimonials_backwardbutton{
     position: absolute;
     left: 74%;
     top: 70%;
     width: 38px;
-    
 }
 .testimonials_subbackgroundmobile{
     display: none;
 }
-
-
-
-
 @media only screen and (max-width: 760px) {
     .testimonials_container{
     background-image: none;
@@ -88,9 +73,7 @@
         line-height: normal;
         margin-left: 25%;
     }
-   
     .testimonials_subbackground{
-    
     height: 70%;
     width: 80%;
     }
@@ -118,19 +101,13 @@
         left: 25%;
         right: 24%;
         top: 30%;
-        width: 30px;
-        
+        width: 30px;  
     }
     .testimonials_forwardbutton{
-        
-        width: 25px;
-        
+        width: 25px;        
     }
     .testimonials_backwardbutton{
         width: 25px;
-        left: 70%;
-
-        
+        left: 70%; 
     }
-    
   }

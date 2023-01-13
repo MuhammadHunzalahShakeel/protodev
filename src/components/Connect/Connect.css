@@ -9,7 +9,6 @@
     color: #ffffff;
     padding-top: 5%;
     position: absolute;
-    /* margin-left: 10%; */
     margin-left: auto;
     text-align: center;
     margin-right: auto;
@@ -18,7 +17,6 @@
 #connect_linkedin{
     margin-left: 60%;
 }
-
 .connect_icon{
     width: 40px;
     margin-top: 7%;  
@@ -47,19 +45,13 @@
         font-size: 36px;
         width: auto;
         margin-left: 7%;
-    /* text-align: center;
-    margin-right: auto;
-    align-items: center; */
-        
     }
     #connect_linkedin{
         margin-left: 20%;
-        
     }
     li>img{
         margin-top: 20%; 
     }
-    
     .connect_icon{
         margin-right: 1%;
         margin-top: 25%;

@@ -2,8 +2,6 @@ import React from 'react'
 import "./Aboutus.css"
 import NewProjectButton from "../../assets/NewProjectButton.svg"
 
-
-
 const Aboutus = () => {
   return (
     <section id='aboutus'>
@@ -19,9 +17,6 @@ const Aboutus = () => {
           <img className='about_newbutton' alt=''  src={NewProjectButton} ></img> 
           </a>
       </div>
-      {/* <div className="about_rightcontainer">
-      <img className='aboutimage' alt=''   src={AboutImage} ></img>
-      </div> */}
     </div>
     </section>
   )

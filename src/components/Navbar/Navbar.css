@@ -9,9 +9,7 @@
     height: 100px;
     position: relative;
     z-index: 1;
-
 }
-
 .Logo{
     justify-self: center;
     cursor: pointer;
@@ -20,7 +18,6 @@
     top: 60px;
     margin-left: -10%;
 }
-
 .navmenu{
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -28,35 +25,20 @@
     list-style: none;
     align-items: center;
     margin: 0%;
-    padding: 0%;
-    /* background-color: #02002C;
-    height: 500px; */
-    /* margin-right: 10%; */
-    
-    
+    padding: 0%;  
 }
-
 .nav-links>a{
     text-decoration: none;
     color: #ffffff;
-    /* padding: 1.7rem 1rem; */
-    /* padding: 20% 30%; */
     padding-top: 1.7rem;
     padding-bottom: 1.7rem;
     margin-left: 0%;
     margin-right: 2.5rem;
     font-family: "Neue Machina";
 }
-
 .nav-links>a:hover{
-    /* background: #5AFF15;
-    border-radius: 10px;
-    border-width: 10px;
-    transition: all 0.2s ease-in-out; */
     color: #5AFF15;
-    
 }
-
 .menu-icon>img{
     width: 20px;
     height: 20px;
@@ -71,10 +53,6 @@
 #no-mobile1,#no-mobile2,#no-mobile3{
     display: none;
 }
-
-
-
-
 @media screen and (max-width:850px) {
     .Logo{
         left: 0;
@@ -90,8 +68,6 @@
         z-index: 1;
         padding: 0px 7%;
     }
-    
-
     .navmenu{
         display: flex;
         flex-direction: column;
@@ -108,18 +84,13 @@
         z-index: -1;
         transition: all 0.3s ease-in-out;
     }
-
     .navmenu.active{
         left: 0%;
     }
     #no-mobile1{
         margin-top: 5%;
-        
     }
-    
     .nav-links>a{
-        /* padding-top: 2rem;
-        padding-bottom: 1rem; */
         margin-left: 7%;
         margin-top: 5%;
         margin-bottom: 0;
@@ -129,18 +100,13 @@
         display: block;
         widows: 100%;
         padding: 2% 0;
-        /* padding-top: 2rem;
-        padding-bottom: 1rem; */
         color: #ffffff;
-
     }
     .nav-links:hover{
         color: #5AFF15
-
-
     }
     .menu-icon{
-    display: block;
+        display: block;
     }
 }
 

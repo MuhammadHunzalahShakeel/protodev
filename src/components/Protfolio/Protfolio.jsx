@@ -6,6 +6,7 @@ import "./Protfolio.css"
 // import ProtfolioDesign4 from "../../assets/ProtfolioDesign4.svg"
 // import ProtfolioDesign5 from "../../assets/ProtfolioDesign5.svg"
 import ProtfolioImage from "../../assets/ProtfolioImage.svg"
+import ProtfolioImage2 from "../../assets/ProtfolioImage2.svg"
 // import ProtfolioDesignHover1 from "../../assets/ProtfolioDesignHover1.svg"
 // import ProtfolioDesignHover2 from "../../assets/ProtfolioDesignHover2.svg"
 // import ProtfolioDesignHover3 from "../../assets/ProtfolioDesignHover3.svg"
@@ -24,7 +25,7 @@ const Protfolio = () => {
         <div className="protfolio_para">We design a reflection of your brand and our aim is to help you in engaging your target audience. We design and create online solutions that increase company productivity and resonate with brand image, from web apps to client portals and everything in between.</div>
         <div >
         <img className='protfolio_image' alt=''  src={ProtfolioImage} ></img>
-        {/* <img className='protfolio_image2' alt=''  src={ProtfolioImage} ></img> */}
+        <img className='protfolio_image2' alt=''  src={ProtfolioImage2} ></img>
         </div>
         {/* <div className="protfolio_designimages">
             <img className='protfolio_designimages1' alt=''  src={ProtfolioDesign1} ></img>

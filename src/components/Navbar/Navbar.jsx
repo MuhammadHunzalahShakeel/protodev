@@ -1,11 +1,6 @@
 import React, { state,Component } from 'react'
 import "./Navbar.css"
-// import {BrowserRouter as Router, Link} from 'react-router-dom';
 import Logo from "../../assets/Logo.svg"
-import MenuIcon from "../../assets/MenuIcon.svg"
-import { render } from '@testing-library/react'
-
-
 
 
 class Navbar extends Component {
@@ -15,11 +10,7 @@ class Navbar extends Component {
   };
   render () {
     return (
-    
       <nav className='NavbarItems'>
-        {/* <div>
-            <img className='Logo' id='Navmenuicon'  src={Logo} ></img>
-        </div> */}
         <ul className='navmenu'>
           <li className='nav-links'>
             <a href="#home">Home</a>
@@ -40,13 +31,10 @@ class Navbar extends Component {
           </li>
           <li className='nav-links' id='no-mobile2'>
             <a  onClick={this.handleClick} href="#aboutus">About us</a>
-            
           </li>
           <li className='nav-links' id='no-mobile3'>
             <a onClick={this.handleClick} href="#services">Services</a>
-            
           </li>
-          
           <li className='nav-links'>
             <a  onClick={this.handleClick} href="#protfolio">Protfolio</a>
           </li>
@@ -58,13 +46,11 @@ class Navbar extends Component {
           </li>
         </ul>
         <div className="menu-icon" onClick={this.handleClick}>
-        {/* <img className='Logo' id='Navmenuicon'  src={MenuIcon} ></img> */}
         <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
       </nav>
     )
   }
-  
 }
 
 export default Navbar

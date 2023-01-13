@@ -3,6 +3,7 @@ import "./Footer.css"
 import Logo from "../../assets/Logo.svg"
 
 const Footer = () => {
+  
   return (
     
     <section id='footer'>
