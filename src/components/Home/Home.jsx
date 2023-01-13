@@ -26,10 +26,13 @@ const Home = () => {
         <h1 className='home_secondheading'><Typewriter
           options={{
             strings: [
+              'UI UX Designer',
+              'Graphic Designer',
               'Web Developer', 
               'App Developer', 
-              'UI UX Designer',
-              'Copywriter',
+              'Content Writer',
+              'Digital Marketer',
+              'SEO',
               'Social Media Manager',
             ],
             autoStart: true,
