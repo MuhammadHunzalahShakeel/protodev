@@ -137,9 +137,20 @@
         margin-left: 0%;
         margin-right: 10px;
     }
+    
+
+}
+@media screen and (min-width:1440px) and (max-width:1980px){
     .NavbarItems{
-        padding: 0 5%;
+        padding: 0 200px;
     }
+    .Logo{
+        margin-left: -120px;
+    }
+    .nav-links>a{
+        margin-right: 6.5rem;
+    }
+    
 
 }
 
