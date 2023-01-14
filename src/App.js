@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Connect from './components/Connect/Connect';
 import Footer from './components/Footer/Footer';
+import Testing from './components/Testing/Testing';
 // import SubmitButton from './buttons/SubmitButton/SubmitButton';
 
 
@@ -19,6 +20,7 @@ function App() {
     <>
     <div className="backgroundiamge"></div>
     <Navbar></Navbar>
+    {/* <Testing></Testing> */}
     <Home></Home>
     <Aboutus></Aboutus>
     <Services></Services>

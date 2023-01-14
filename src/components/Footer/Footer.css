@@ -39,7 +39,7 @@
 }
 .footer_nav{
     margin-top: 6%;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
 }
 .footer_line{
     height: 1px;
@@ -52,7 +52,7 @@
 
 .footer_paragraph{
     color: #ffffff;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
     text-align: center;
     font-size: 14px;
     margin-top: 2%;
@@ -116,3 +116,25 @@
     margin-bottom: 0%;
   }
 }
+
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+  .footer_container{
+    height: 520px;
+  }
+  .footer_nav>li{
+    text-align: center;
+    font-size: 26px;
+  }
+  .footer_nav{
+    color: #ffffff;
+    list-style-type: none;
+  margin-left: 100px;
+}
+.footer_paragraph{
+  font-size: 24px;
+}
+}
+
+
+

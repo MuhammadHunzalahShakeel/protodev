@@ -8,7 +8,7 @@
     margin-left: 10%;
     margin-right: 0px;
     margin-top: 10%;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
 }
 .about_firstheading{
     font-size: 60px;
@@ -43,7 +43,7 @@
     }
     .about_firstheading,.about_secondheading{
         font-weight:bolder;
-        font-family: "Neue Machina";
+        /* font-family: "Neue Machina"; */
         font-size: 36px;
     }
     .aboutimage{
@@ -57,5 +57,17 @@
         height: 10%;
         margin-top: 5%;
         margin-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+    .about_para{
+        font-size: 24px;
+    }
+    .about_firstheading{
+        font-size: 80px;
+    }
+    .about_secondheading{
+        font-size: 80px;
     }
 }

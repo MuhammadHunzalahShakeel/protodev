@@ -19,8 +19,17 @@ class Navbar extends Component {
             <a href="#aboutus">About us</a>
           </li>
           <li className='nav-links'>
-            <a href="#services">Services</a>
+            <a href="#services" className='nav-links-services'>Services</a>
           </li>
+          {/* <li className='nav-links'>
+            <a  onClick={this.handleClick} href="#protfolio">Protfolio</a>
+          </li>
+          <li className='nav-links'>
+            <a  onClick={this.handleClick} href="#testimonials">Testimonials</a>
+          </li>
+          <li className='nav-links'>
+            <a onClick={this.handleClick} href="#contact">Contact Us</a>
+          </li> */}
         </ul>
            <div>
             <img className='Logo' id='Navmenuicon'  src={Logo} ></img>

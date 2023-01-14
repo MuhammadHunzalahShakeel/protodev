@@ -1,21 +1,33 @@
 import React, { useRef } from 'react';
+import {useState} from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
 import ContactImage from "../../assets/ContactImage.svg"
 import SubmitButton from "../../assets/SubmitButton.svg"
 
+
+
 const Contact = () => {
+  // <script>
+  //   var input = documnet.queryselector("#phonenumber");
+  //   window.intlTelInput(input,{});
+  // </script>
+    const [value, setValue] = useState()
     const form = useRef();
     const sendEmail = (e) => {
       e.preventDefault();
       emailjs.sendForm('service_4nfnhem', 'template_5bfulk7', form.current, '62o-Tx0ft0e1vcTrF')
         .then((result) => {
             console.log(result.text);
-            console.log("messagesent");
-        }, (error) => {
+            toast.success("We receive your message.Our Team will get back to you soon!!",
+              {theme: "dark"});
+          }, (error) => {
             console.log(error.text);
-        });
-    };
+          });
+        };
+    
    
   return (
     <section id='contact'>
@@ -32,13 +44,13 @@ const Contact = () => {
           <p className='contact_paragraph'>We love listening your ideas and we make sure that our clients are always satisfied with the services provided. Just tell us what you need and wait for the best results ever.</p>
           <div className="contact_inputfields">
             <form ref={form} onSubmit={sendEmail}>
-              <input type="text" name='user_firstname' className="contact_firstname"  placeholder="First Name" required></input>
-              <input type="text" name='user_lastname'  className="contact_lastname" placeholder="Last Name"></input>
+              <input type="text" name='user_fullname' className="contact_firstname"  placeholder="Full Name" required></input>
               <input type="email" name='user_email'  className="contact_emailaddress" placeholder="Email Address" required></input>
-              <input type="text" name='user_budget'  className="contact_budget" placeholder="Budget"></input>
               <input type="text" name='user_subject'  class="contact_subject" placeholder="Subject" required></input>
+              <input type="text" name='user_budget'  className="contact_budget" placeholder="Budget" required></input>
               <input type="text" name='message'  className="contact_message" placeholder="Message" required></input>
               <button type="submit" > <img className='contact_submitbutton' alt=''  src={SubmitButton} ></img></button>
+              <ToastContainer />
             </form>
           </div>
         </div> 

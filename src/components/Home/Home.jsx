@@ -7,6 +7,7 @@ import LinkedinIcon from "../../assets/LinkedinIcon.svg"
 import BehanceIcon from "../../assets/BehanceIcon.svg"
 import FacebookIcon from "../../assets/FacebookIcon.svg"
 import InstagramIcon from "../../assets/InstagramIcon.svg"
+import EmailIcon from "../../assets/EmailIcon.svg"
 import HomeBackground from "../../assets/HomeBackground.svg"
 
 const Home = () => {
@@ -26,10 +27,13 @@ const Home = () => {
         <h1 className='home_secondheading'><Typewriter
           options={{
             strings: [
+              'UI UX Designer',
+              'Graphic Designer',
               'Web Developer', 
               'App Developer', 
-              'UI UX Designer',
-              'Copywriter',
+              'Content Writer',
+              'Digital Marketer',
+              'SEO',
               'Social Media Manager',
             ],
             autoStart: true,
@@ -40,10 +44,11 @@ const Home = () => {
         <p className='home_para'>Professional and Experience Teams dedicated to creating visually appealing service to meet the demands of your corporate and your customers</p>
           <a href="#contact"><img className='home_newbutton' alt=''  src={NewProjectButton} ></img></a>
           <ul className="home_sociallinks">
-            <li><a href="https://www.linkedin.com/company/protodev/" rel='noopener' target='_blank'><img className='LinkedinIcon' alt='' id='icon'  src={LinkedinIcon} ></img></a></li>
-            <li><a href="https://www.behance.net/protodev" rel='noopener' target='_blank'><img className='BehanceIcon' alt='' id='icon'  src={BehanceIcon} ></img></a></li>
+            <li><a href="https://www.linkedin.com/company/protodev/" target='_blank'><img className='LinkedinIcon' alt='' id='icon'  src={LinkedinIcon} ></img></a></li>
+            {/* <li><a href="https://www.behance.net/protodev" rel='noopener' target='_blank'><img className='BehanceIcon' alt='' id='icon'  src={BehanceIcon} ></img></a></li> */}
             <li><a href="https://instagram.com/protodev.co?igshid=Yzg5MTU1MDY=" rel='noopener' target='_blank'><img className='InstagramIcon' alt='' id='icon'  src={InstagramIcon} ></img></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100088868936092" rel='noopener' target='_blank'><img className='EmailIcon' alt='' id='icon'  src={FacebookIcon} ></img></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100088868936092" rel='noopener' target='_blank'><img className='FacebookIcon' alt='' id='icon'  src={FacebookIcon} ></img></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100088868936092" rel='noopener' target='_blank'><img className='EmailIcon' alt='' id='icon'  src={EmailIcon} ></img></a></li>
           </ul>
       </div>
     </div>

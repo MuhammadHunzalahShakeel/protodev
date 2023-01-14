@@ -4,6 +4,18 @@
     margin-bottom: 10%;
     
 }
+.PhoneInputInput {
+	/* The phone number input stretches to fill all empty space */
+	/* flex: 1; */
+	/* The phone number input should shrink
+	   to make room for the extension input */
+	min-width: 250px;
+  height: 40px;
+}
+.contact_phonenumber{
+  width: 35px;
+}
+
 .contact_image{
     width: 441px;
     height: 675px;
@@ -13,7 +25,7 @@
 .contact_firstheading{
     color: #141414;
     font-weight: bolder;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
     font-size: 60px;
     margin:0px;
     padding: 0px;
@@ -22,7 +34,7 @@
 .contact_secondheading{
     color: #141414;
     font-weight: bolder;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
     font-size: 60px;
 }
 .contact_secondheading2{
@@ -41,7 +53,7 @@
 }
 .contact_paragraph{
   margin-right: 20%;
-  font-family: "Neue Machina";
+  /* font-family: "Neue Machina"; */
 }
 input {
   border-top-style: hidden;
@@ -49,12 +61,11 @@ input {
   border-left-style: hidden;
   border-bottom-style: groove;
   background-color: transparent;
-  width: 40%;
-  font-family: "Neue Machina";
+  width: 41%;
   font-size: 18px;
   outline: none; 
 }
-.contact_lastname{
+.contact_emailaddress{
   margin-left: 30px;
   margin-top: 5%;
 }
@@ -62,7 +73,12 @@ input {
   margin-left: 30px;
   margin-top: 5%;
 }
-.contact_subject,.contact_message{
+/* .contact_subject,.contact_message{
+  display: block;
+  width: 85.5%;
+  margin-top: 5%;
+} */
+.contact_message{
   display: block;
   width: 85.5%;
   margin-top: 5%;
@@ -92,7 +108,7 @@ button, input[type="submit"], input[type="reset"] {
     }
   .contact_firstheading,.contact_secondheading{
     font-weight:bolder;
-    font-family: "Neue Machina";
+    /* font-family: "Neue Machina"; */
     font-size: 36px;
     margin: 0;
     padding: 0;
@@ -114,7 +130,7 @@ button, input[type="submit"], input[type="reset"] {
   .contact_firstname{
     margin-top: 12%;
   }
-  .contact_lastname{
+  .contact_emailaddress{
     margin-left: 0%;
     margin-top: 12%;
   }
@@ -126,7 +142,6 @@ button, input[type="submit"], input[type="reset"] {
     margin-top: 12%;
   }
   .contact_subject{
-    width: 160%;
     margin-top: 12%;    
   }
   .contact_message{
@@ -140,5 +155,19 @@ button, input[type="submit"], input[type="reset"] {
     margin-left: 45%;
     margin-right: auto;
     align-items: center;
+  }
+}
+
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+  .contact_submitbutton{
+    width: 100%;
+  }
+  .contact_image{
+    width: 700px;
+    height: 900px;
+  }
+  .contact_paragraph{
+    font-size: 24px;
   }
 }
