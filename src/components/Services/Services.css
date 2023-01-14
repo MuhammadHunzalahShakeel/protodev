@@ -75,12 +75,18 @@
 .services1_innerul>li{
   margin-bottom: 5%;
 }
+.service_mobile{
+  display: none;
+}
 @media only screen and (max-width: 760px) {
   .services_heading{
       font-weight:bolder;
       /* font-family: "Neue Machina"; */
       font-size: 36px;
       margin-top: 10%;
+  }
+  .service_mobile{
+    display: block;
   }
   .service_paragraph{
     width: 70%;

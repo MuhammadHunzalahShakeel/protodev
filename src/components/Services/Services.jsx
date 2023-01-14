@@ -33,6 +33,7 @@ const Services = () => {
         <div onClick={()=>setShow1(!show1)}><img id='serviceimage1'  className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
         {show1 && <div className='services1_innerpara'>
+        <div className='service_mobile'>At Protodev, our UI/UX design services help businesses create user-friendly and visually appealing digital products.</div>
         Our team of experts will work with you to understand your business goals and design an intuitive user interface that enhances the user experience. Our services includes:
           <ul className='services1_innerul'>
             <li>Website Design</li>
