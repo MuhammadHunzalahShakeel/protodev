@@ -7,18 +7,12 @@ import testimonialsForwardButton from "../../assets/TestimonialsForwardButton.sv
 import testimonialsBackwardButton from "../../assets/TestimonialsBackwardButton.svg"
 
 const Testimonials = () => {
-  // const quotes = [
-  //   {text1: "1 Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message."},
-  //   {text2: "2 Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message."},
-  //   {text3: "3 Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message."},
-  //   {text4: "4 Finding the best approach for your needs. Then, transform it into a delightfull interface, greate experience with impactful message."}
-  // ];
-  const quotes=["The design solution were increased our website traffic and conversions. The services provided by protodev were instrumental in the success of our brand and we highly recommend them to anyone looking to improve their website. - Edeline G.",
+  const quotes=["The design solution were increased our website traffic and conversions. The services provided by protodev were instrumental in the success of our brand. - Edeline G.",
                 "They take time and after understanding my company, they used that information to create a unique and cohesive brand identity that perfectly represents my business. -Shoaib",
                 "The team was also very good in providing timely updates and addressing any issues that came up during the development process. I highly recommend ProtoDev for any Flutter development needs. -Farhan",
                 "Their team of writers are extremely skilled and talented, they were able to understand my business goals and create high-quality, engaging content that resonated with my target audience. -Amelia ",
-                "The team had a deep understanding of Node.js and Express.js which helped them deliver an efficient and robust server-side solution. Their expertise in databases was also evident in the seamless integration of our database with the backend. -Daniel Garcia",
-                "They took the time to understand my business and target audience, and used that information to create a visually stunning and highly effective landing page. The design was not only aesthetically pleasing, but also user-friendly. -Joseph"
+                "The team had a deep understanding of Node.js and Express.js which helped them deliver an efficient and robust server-side solution. -Daniel Garcia",
+                "They took the time to understand my business and target audience, and used that information to create a visually stunning and highly effective landing page. -Joseph"
                 ];
   
   const [count, setcount]=useState(0);
