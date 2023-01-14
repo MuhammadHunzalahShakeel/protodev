@@ -45,7 +45,7 @@ class Navbar extends Component {
             <a onClick={this.handleClick} href="#services">Services</a>
           </li>
           <li className='nav-links'>
-            <a  onClick={this.handleClick} href="#protfolio">Protfolio</a>
+            <a  onClick={this.handleClick} href="#protfolio">Portfolio</a>
           </li>
           <li className='nav-links'>
             <a  onClick={this.handleClick} href="#testimonials">Testimonials</a>

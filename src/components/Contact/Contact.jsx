@@ -15,17 +15,24 @@ const Contact = () => {
   //   window.intlTelInput(input,{});
   // </script>
     const [value, setValue] = useState()
+    const [show, setShow] = useState("flex")
     const form = useRef();
     const sendEmail = (e) => {
-      e.preventDefault();
-      emailjs.sendForm('service_4nfnhem', 'template_5bfulk7', form.current, '62o-Tx0ft0e1vcTrF')
-        .then((result) => {
-            console.log(result.text);
-            toast.success("We receive your message.Our Team will get back to you soon!!",
-              {theme: "dark"});
-          }, (error) => {
-            console.log(error.text);
-          });
+      if(show==="flex"){
+          setShow("none");
+          e.preventDefault();
+          e.target.reset();
+          emailjs.sendForm('service_4nfnhem', 'template_5bfulk7', form.current, '62o-Tx0ft0e1vcTrF')
+            .then((result) => {
+                console.log(result.text);
+                toast.success("We receive your message.Our Team will get back to you soon!!",
+                  {theme: "dark"});
+                  setShow("flex");
+              }, (error) => {
+                console.log(error.text);
+                setShow("flex");
+              });
+      }
         };
     
    
@@ -49,7 +56,7 @@ const Contact = () => {
               <input type="text" name='user_subject'  class="contact_subject" placeholder="Subject" required></input>
               <input type="text" name='user_budget'  className="contact_budget" placeholder="Budget" required></input>
               <input type="text" name='message'  className="contact_message" placeholder="Message" required></input>
-              <button type="submit" > <img className='contact_submitbutton' alt=''  src={SubmitButton} ></img></button>
+              <button type="submit"> <img className='contact_submitbutton' alt='' style={{display:show}}  src={SubmitButton} ></img></button>
               <ToastContainer />
             </form>
           </div>
