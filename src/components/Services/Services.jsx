@@ -33,7 +33,7 @@ const Services = () => {
         <div onClick={()=>setShow1(!show1)}><img id='serviceimage1'  className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
         {show1 && <div className='services1_innerpara'>
-        <div className='service_mobile'>At Protodev, our UI/UX design services help businesses create user-friendly and visually appealing digital products.</div>
+        <span className='service_mobile'>At Protodev, our UI/UX design services help businesses create user-friendly and visually appealing digital products.</span>
         Our team of experts will work with you to understand your business goals and design an intuitive user interface that enhances the user experience. Our services includes:
           <ul className='services1_innerul'>
             <li>Website Design</li>
@@ -50,10 +50,10 @@ const Services = () => {
         <div className="service1">
         <div><img className='services_number1' alt='' src={ServicesNumber2} ></img></div>
         <div className='services1_para'>Our graphic design services at Protodev are tailored to help your business stand out. 
-        We create visually stunning designs that align with your brand and communicate your message effectively. </div>
+         </div>
         <div onClick={()=>setShow2(!show2)}><img className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show2 && <div className='services1_innerpara'>Whether you're in need of a new logo, website design, or marketing materials, we deliver high-quality and professional designs to elevate your business. Our services includes: 
+        {show2 && <div className='services1_innerpara'>We create visually stunning designs that align with your brand and communicate your message effectively. Our services includes: 
           <ul className='services1_innerul'>
             <li>Logo Design</li>
             <li>Brand Identity </li>
@@ -86,7 +86,7 @@ const Services = () => {
         <div className='services1_para'>At Protodev, our content writing services help businesses create engaging and compelling content that resonates with their audience. </div>
         <div onClick={()=>setShow4(!show4)}><img className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show4 && <div className='services1_innerpara'>Whether you're in need of website copy, blog posts, articles, or any other form of written content, we can deliver high-quality and SEO-friendly content that will help your business succeed. Our services includes:
+        {show4 && <div className='services1_innerpara'>Our team can deliver high-quality and SEO-friendly content that will help your business succeed. Whether you're in need of website copy, blog posts, articles, or any other form of written content. Our services includes:
           <ul className='services1_innerul'>
             <li>Website Copywriting</li>
             <li>Blog Post Writing</li>

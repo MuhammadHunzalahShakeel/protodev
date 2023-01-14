@@ -55,7 +55,9 @@
 .fa-bars,.fa-times{
     color: #ffffff;
     width: 20%;
+    cursor: pointer;
 }
+
 #no-mobile1,#no-mobile2,#no-mobile3{
     display: none;
 }
@@ -111,6 +113,7 @@
     #no-mobile1{
         margin-top: 5%;
     }
+    
     .nav-links>a{
         margin-left: 7%;
         margin-top: 5%;

@@ -48,7 +48,7 @@ const Home = () => {
             {/* <li><a href="https://www.behance.net/protodev" rel='noopener' target='_blank'><img className='BehanceIcon' alt='' id='icon'  src={BehanceIcon} ></img></a></li> */}
             <li><a href="https://instagram.com/protodev.co?igshid=Yzg5MTU1MDY=" rel='noopener' target='_blank'><img className='InstagramIcon' alt='' id='icon'  src={InstagramIcon} ></img></a></li>
             <li><a href="https://www.facebook.com/profile.php?id=100088868936092" rel='noopener' target='_blank'><img className='FacebookIcon' alt='' id='icon'  src={FacebookIcon} ></img></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100088868936092" rel='noopener' target='_blank'><img className='EmailIcon' alt='' id='icon'  src={EmailIcon} ></img></a></li>
+            <li><a href="mailto:clients@protodev.co" rel='noopener' target='_blank'><img className='EmailIcon' alt='' id='icon'  src={EmailIcon} ></img></a></li>
           </ul>
       </div>
     </div>
