@@ -130,3 +130,18 @@
     
   
   }
+
+
+  @media only screen and (min-width:1440px) and (max-width: 1980px){
+    .protfolio_para{
+      font-size: 24px;
+    }
+    .protfolio_heading1,.protfolio_heading2{
+        font-size: 80px;
+    }
+    .protfolio_container{
+        height: 2300px;
+        
+    }
+   
+  }

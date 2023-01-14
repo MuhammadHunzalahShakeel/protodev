@@ -61,12 +61,11 @@ input {
   border-left-style: hidden;
   border-bottom-style: groove;
   background-color: transparent;
-  width: 40%;
-  /* font-family: "Neue Machina"; */
+  width: 41%;
   font-size: 18px;
   outline: none; 
 }
-.contact_phonenumber{
+.contact_emailaddress{
   margin-left: 30px;
   margin-top: 5%;
 }
@@ -74,7 +73,12 @@ input {
   margin-left: 30px;
   margin-top: 5%;
 }
-.contact_subject,.contact_message{
+/* .contact_subject,.contact_message{
+  display: block;
+  width: 85.5%;
+  margin-top: 5%;
+} */
+.contact_message{
   display: block;
   width: 85.5%;
   margin-top: 5%;
@@ -126,7 +130,7 @@ button, input[type="submit"], input[type="reset"] {
   .contact_firstname{
     margin-top: 12%;
   }
-  .contact_phonenumber{
+  .contact_emailaddress{
     margin-left: 0%;
     margin-top: 12%;
   }
@@ -138,7 +142,6 @@ button, input[type="submit"], input[type="reset"] {
     margin-top: 12%;
   }
   .contact_subject{
-    width: 160%;
     margin-top: 12%;    
   }
   .contact_message{
@@ -152,5 +155,19 @@ button, input[type="submit"], input[type="reset"] {
     margin-left: 45%;
     margin-right: auto;
     align-items: center;
+  }
+}
+
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+  .contact_submitbutton{
+    width: 100%;
+  }
+  .contact_image{
+    width: 700px;
+    height: 900px;
+  }
+  .contact_paragraph{
+    font-size: 24px;
   }
 }

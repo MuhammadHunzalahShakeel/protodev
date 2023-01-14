@@ -68,11 +68,10 @@ const Services = () => {
         {/* SERVICE NO 03 */}
         <div className="service1">
         <div ><img className='services_number1' alt='' src={ServicesNumber3} ></img></div>
-        <div className='services1_para'>Our website and application development services at Protodev are designed to help businesses create high-performing and scalable digital products.
-        We specialize in creating responsive websites and mobile applications that are visually appealing, user-friendly, and easy to navigate. </div>
+        <div className='services1_para'>Our website and application development services at Protodev are designed to help businesses create high-performing and scalable digital products.</div>
         <div onClick={()=>setShow3(!show3)}><img className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show3 && <div className='services1_innerpara'>Whether you're looking to build a new website or mobile app, we can help you turn your ideas into reality. We specialize into the following domain:
+        {show3 && <div className='services1_innerpara'> We specialize in creating responsive websites and mobile applications that are visually appealing, user-friendly, and easy to navigate. We specialize into the following domain:
           <ul className='services1_innerul'>
             <li>Frontend Development (React Js)</li>
             <li>Backend Development (Node JS, Python, Express JS)</li>
@@ -87,7 +86,7 @@ const Services = () => {
         <div className='services1_para'>At Protodev, our content writing services help businesses create engaging and compelling content that resonates with their audience. </div>
         <div onClick={()=>setShow4(!show4)}><img className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show4 && <div className='services1_innerpara'>Whether you're in need of website copy, blog posts, articles, or any other form of written content, we can deliver high-quality and SEO-friendly content that will help your business succeed. Contact us today to see how we can help you elevate your online presence.
+        {show4 && <div className='services1_innerpara'>Whether you're in need of website copy, blog posts, articles, or any other form of written content, we can deliver high-quality and SEO-friendly content that will help your business succeed. Our services includes:
           <ul className='services1_innerul'>
             <li>Website Copywriting</li>
             <li>Blog Post Writing</li>
@@ -102,10 +101,10 @@ const Services = () => {
         {/* SERVICE NO 05 */}
         <div className="service1">
         <div><img className='services_number1' alt='' src={ServicesNumber5} ></img></div>
-        <div className='services1_para'>Our digital marketing services at Protodev help businesses reach their target audience and drive growth through various online channels. Our team of experts will work with you to develop a comprehensive digital marketing strategy that includes SEO, PPC, social media, email marketing, and more. </div>
+        <div className='services1_para'>Our digital marketing services at Protodev help businesses reach their target audience and drive growth through various online channels.</div>
         <div onClick={()=>setShow5(!show5)}><img className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show5 && <div className='services1_innerpara'>We specialize in creating campaigns that are tailored to your business goals and target audience, and we use data-driven insights to optimize and measure the success of your campaign. Whether you're looking to increase brand awareness, drive traffic, or generate leads, we can help you achieve your business objectives. Contact us today to see how we can help you grow your business online.
+        {show5 && <div className='services1_innerpara'>Our team of experts will work with you to develop a comprehensive digital marketing strategy that includes SEO, PPC, social media, email marketing, and more. We specialize in creating campaigns that are tailored to your business goals and target audience, and we use data-driven insights to optimize and measure the success of your campaign.
         </div>}
         <div className="divider"></div>
 
@@ -115,7 +114,7 @@ const Services = () => {
         <div className='services1_para'>Our social media management services at Protodev help businesses create and execute a comprehensive strategy to increase brand awareness, engage with their audience and drive business growth. </div>
         <div onClick={()=>setShow6(!show6)}><img className='service_arrowbutton' alt='' src={ServicesArrowButton} ></img></div>
         </div>
-        {show6 && <div className='services1_innerpara'>Our team of experts will work with you to understand your business and create content that aligns with your brand voice and message. We specialize in managing social media platforms such as Facebook, Instagram, Twitter, LinkedIn, etc. and we use data-driven insights to optimize and measure the success of your campaign. 
+        {show6 && <div className='services1_innerpara'>Our team of experts will work with you to understand your business and create content that aligns with your brand voice and message. We specialize in managing social media platforms such as Facebook, Instagram, Twitter, LinkedIn, etc. 
           <ul className='services1_innerul'>
             <li>Social media account setup and optimization</li>
             <li>Social media content creation and scheduling</li>

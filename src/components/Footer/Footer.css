@@ -116,3 +116,25 @@
     margin-bottom: 0%;
   }
 }
+
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+  .footer_container{
+    height: 520px;
+  }
+  .footer_nav>li{
+    text-align: center;
+    font-size: 26px;
+  }
+  .footer_nav{
+    color: #ffffff;
+    list-style-type: none;
+  margin-left: 100px;
+}
+.footer_paragraph{
+  font-size: 24px;
+}
+}
+
+
+

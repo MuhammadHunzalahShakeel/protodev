@@ -57,3 +57,16 @@
         margin-top: 25%;
     }
   }
+
+
+  @media only screen and (min-width:1440px) and (max-width: 1980px){
+    .connect_heading{
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+    .connect_icon {
+        margin-top: 5%;
+        width: 65px;
+    }
+   
+  }

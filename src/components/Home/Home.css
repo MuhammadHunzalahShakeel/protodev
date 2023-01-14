@@ -122,3 +122,19 @@
     width: 70%;
 }
 }
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+  .home_rightcontainer>p{
+      font-size: 24px;
+  }
+  .home_firstheading{
+    font-size: 120px;
+  }
+  .home_secondheading{
+    font-size: 120px;
+  }
+  .home_container {
+    height: 800px;
+    /* z-index: -999999; */
+}
+}
