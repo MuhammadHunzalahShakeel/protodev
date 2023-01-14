@@ -23,6 +23,10 @@ const Testimonials = () => {
       setcount(count + 1);
       setText(quotes[count+1]);
     }
+    else{
+      setcount(0);
+      setText(quotes[0]);
+    }
   };
   const decText=()=>{ 
     if(count>0)
@@ -31,8 +35,8 @@ const Testimonials = () => {
       setText(quotes[count-1]);
     }
     else{
-      setcount(0);
-      setText(quotes[0]);
+      setcount(5);
+      setText(quotes[5]);
     }
   };
   
