@@ -1,0 +1,72 @@
+.connect_container{
+    background-image: url("../../assets/ConnectBackground.svg") ;
+    height: 220px;
+}
+.connect_heading{
+    font-weight: bolder;
+    /* font-family: "Neue Machina"; */
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 5%;
+    position: absolute;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    align-items: center;
+}
+#connect_linkedin{
+    margin-left: 60%;
+}
+.connect_icon{
+    width: 40px;
+    margin-top: 7%;  
+}
+.connect_icon{
+    margin-right: 0.5%;  
+}
+.connect_ul{
+    list-style-type: none;
+    
+}
+.connect_ul>li{
+    display: inline;
+}
+.connect_li{
+    display: inline;
+}
+@media only screen and (max-width: 760px) {
+    .connect_container{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .connect_heading{
+        font-weight:bolder;
+        /* font-family: "Neue Machina"; */
+        font-size: 36px;
+        width: auto;
+        margin-left: 7%;
+    }
+    #connect_linkedin{
+        margin-left: 20%;
+    }
+    li>img{
+        margin-top: 20%; 
+    }
+    .connect_icon{
+        margin-right: 1%;
+        margin-top: 25%;
+    }
+  }
+
+
+  @media only screen and (min-width:1440px) and (max-width: 1980px){
+    .connect_heading{
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+    .connect_icon {
+        margin-top: 5%;
+        width: 65px;
+    }
+   
+  }

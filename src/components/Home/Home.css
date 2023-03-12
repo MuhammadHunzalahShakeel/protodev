@@ -1,0 +1,140 @@
+.home_container {
+    background-image: url("../../assets/HomeBackground.svg");
+    display: flex;
+    height: 650px;
+    background-repeat: no-repeat;
+    position: relative;
+    /* z-index: -999999; */
+}
+.home_container{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  grid-gap: 10px;
+}
+.home_leftcontainer{
+  flex: 1;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 50%;
+  /* font-family: "Neue Machina"; */
+  font-weight: bolder;
+}
+.home_rightcontainer>p{
+    font-weight: 200;
+    font-size: 18px;
+}
+.home_rightcontainer{
+    margin-left: 20%;
+    margin-right: 11%;
+    margin-top: 20%;
+    color: #ffffff;
+    right: 80px;
+    width: 52%;
+    /* font-family: "Neue Machina"; */
+    font-size: 12px;
+}
+.home_firstheading{
+    font-size: 90px;
+    color: #ffffff;
+    margin: 0 ;
+    margin-top: 50px;
+    width: 100%;
+    white-space:nowrap;
+}
+.home_secondheading{
+    margin: 0;
+    font-size: 90px;
+    color: #5AFF15;
+    display: inline;
+}
+.home_protoimg{
+    margin-top: 400px;
+}
+.home_protoimg>img{
+    width: 1080px;
+    height: 310px ;
+}
+#icon{
+ margin-top: 10%;
+ margin-right: 4%;
+ margin-left: 0%;
+ width: 13%;
+}
+.home_sociallinks{
+  list-style-type: none;
+  margin-block-start: 1em;
+  padding: 0%;
+}
+.home_sociallinks>li{
+  display: inline;
+}
+.home_newbutton{
+    width: 60%;
+    margin-top: 5%;
+}
+.home_para{
+ width: 100%;
+}
+@media only screen and (max-width: 760px) {
+  .home_firstheading,.home_secondheading{
+      font-weight:bolder;
+      /* font-family: "Neue Machina"; */
+      font-size: 45px;
+      width: 200px;  
+  }
+  .home_leftcontainer{
+    margin-top: 0%;
+    padding-top: 10%;
+    margin-left: 10%;  
+  }
+  .home_rightcontainer{
+    margin-left: 10%;
+  }
+  .home_firstheading{
+    margin-top: 0;
+}
+  .home_container {
+    display: block; 
+    background-size: cover;
+  }
+  .home_para{
+    width: 130%;
+  }
+  .home_rightcontainer>p{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  #icon{
+    margin-top: 15%;
+    margin-right: 8%;
+    margin-bottom: 15%;
+    width: 15%;
+   }
+   .home_rightcontainer{
+    margin-left: 10%;
+    margin-right: 11%;
+    margin-top: 10%;
+    right: 80px;
+    width: 50%;
+  }
+  .home_newbutton{
+    margin-top: 10%;
+    width: 120%;
+}
+}
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+  .home_rightcontainer>p{
+      font-size: 24px;
+  }
+  .home_firstheading{
+    font-size: 120px;
+  }
+  .home_secondheading{
+    font-size: 120px;
+  }
+  .home_container {
+    height: 800px;
+    /* z-index: -999999; */
+}
+}

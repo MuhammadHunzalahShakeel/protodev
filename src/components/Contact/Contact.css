@@ -1,0 +1,174 @@
+.contact_container{
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 10%;
+    
+}
+.PhoneInputInput {
+	/* The phone number input stretches to fill all empty space */
+	/* flex: 1; */
+	/* The phone number input should shrink
+	   to make room for the extension input */
+	min-width: 250px;
+  height: 40px;
+}
+.contact_phonenumber{
+  width: 35px;
+}
+
+.contact_image{
+    width: 441px;
+    height: 675px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.contact_firstheading{
+    color: #141414;
+    font-weight: bolder;
+    /* font-family: "Neue Machina"; */
+    font-size: 60px;
+    margin:0px;
+    padding: 0px;
+    display: inline;
+}
+.contact_secondheading{
+    color: #141414;
+    font-weight: bolder;
+    /* font-family: "Neue Machina"; */
+    font-size: 60px;
+}
+.contact_secondheading2{
+    color: #007AFF;
+    
+}
+.contact_leftcontainer{
+  width: 50%;
+  flex: 1;
+  margin-bottom: 30px;
+}
+.contact_rightcontainer{
+  margin-top: 80px;
+  width: 50%;
+  
+}
+.contact_paragraph{
+  margin-right: 20%;
+  /* font-family: "Neue Machina"; */
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: transparent;
+  width: 41%;
+  font-size: 18px;
+  outline: none; 
+}
+.contact_emailaddress{
+  margin-left: 30px;
+  margin-top: 5%;
+}
+.contact_budget{
+  margin-left: 30px;
+  margin-top: 5%;
+}
+/* .contact_subject,.contact_message{
+  display: block;
+  width: 85.5%;
+  margin-top: 5%;
+} */
+.contact_message{
+  display: block;
+  width: 85.5%;
+  margin-top: 5%;
+}
+.contact_submitbutton{
+  width: 58%;
+  margin-top: 15%;
+  margin-left: 0%;
+  margin-right: 40%;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+@media only screen and (max-width: 760px) {
+  .contact_image{
+    display: none;
+  }
+  .contact_container{
+    
+    display:block;
+    }
+  .contact_firstheading,.contact_secondheading{
+    font-weight:bolder;
+    /* font-family: "Neue Machina"; */
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  .contact_leftcontainer{
+    width: 0%;
+    flex: 0;
+  }
+  .contact_rightcontainer{
+   margin-left: 10%;
+  }
+  .contact_paragraph{
+    width: 140%;
+  }
+  input {
+    width: 160%;
+    
+  }
+  .contact_firstname{
+    margin-top: 12%;
+  }
+  .contact_emailaddress{
+    margin-left: 0%;
+    margin-top: 12%;
+  }
+  .contact_budget{
+    margin-left: 0%;
+    margin-top: 12%;
+  }
+  .contact_emailaddress{
+    margin-top: 12%;
+  }
+  .contact_subject{
+    margin-top: 12%;    
+  }
+  .contact_message{
+    width: 160%;
+    margin-top: 30%;    
+  }
+  .contact_submitbutton{
+    margin-top: 20%;
+    width: 90%;
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (min-width:1440px) and (max-width: 1980px){
+  .contact_submitbutton{
+    width: 100%;
+  }
+  .contact_image{
+    width: 700px;
+    height: 900px;
+  }
+  .contact_paragraph{
+    font-size: 24px;
+  }
+}
