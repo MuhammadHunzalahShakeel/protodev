@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Back = styled.div`
-    background-image: url(/static/media/ProtfolioBackground.svg);
+    // background-image: url(/static/media/ProtfolioBackground.svg);
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;

@@ -4,6 +4,8 @@ import {GrLinkedinOption, GrInstagram, GrFacebookOption} from 'react-icons/gr';
 import {BiEnvelope} from 'react-icons/bi';
 import img1 from "/static/media/bottomIcon.svg";
 import img2 from "/static/media/Logo.svg";
+import img3 from "/static/media/ConnectBackground.svg";
+import img4 from "/static/media/FooterBackground.svg";
 import {
     Row,
     NavLogo,
@@ -27,7 +29,7 @@ const Footer = () => {
     }
     return(
         <>
-        <Row>
+        <Row style={{backgroundImage: `url(${img3})`}}>
             <Container>
                 <p>Connect With Us</p>
                 <Icons>
@@ -40,7 +42,7 @@ const Footer = () => {
             </Container>
             {/* <img src="/static/media/bottomIcon.svg"/> */}
         </Row>
-        <Bar>
+        <Bar style={{backgroundImage: `url(${img4})`}}>
             <div style={{paddingTop: "6%"}}>
                 <NavLogo to="/" onClick={toggleHome}>
                     <NavLogoImage src={img2}></NavLogoImage>

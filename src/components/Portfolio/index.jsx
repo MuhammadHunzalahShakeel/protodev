@@ -23,6 +23,7 @@ import {
 import PortfolioImage from "./PortfolioImage";
 import PortfolioImage2 from "./PortfolioImage2";
 import { useState } from "react";
+import img5 from "/static/media/ProtfolioBackground.svg";
 
 const Portfolio = () => {
     const [data, setData] = useState(designData);
@@ -59,7 +60,7 @@ const Portfolio = () => {
         setCopywritingColor("#141414");
     }
     return (
-        <Back id="#portfolio">
+        <Back style={{backgroundImage: `url(${img5})`}} id="#portfolio">
             <Row>
                 <Column1>
                     <span>We Create And</span><br></br><span style={{color: "#5aff15"}}>Innovate</span>

@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Row = styled.div`
-    background-image: url(/static/media/ConnectBackground.svg);
+    // background-image: url(/static/media/ConnectBackground.svg);
     height: 13.75rem;
     color: #fff;
     padding-left: 3%;
@@ -139,7 +139,7 @@ export const Line = styled.div`
 `;
 
 export const Bar = styled.div`
-    background-image: url(/static/media/FooterBackground.svg);
+    // background-image: url(/static/media/FooterBackground.svg);
     height: 22rem;
     color: #fff;
     justify-content: center;

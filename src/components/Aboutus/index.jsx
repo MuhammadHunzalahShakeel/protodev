@@ -6,10 +6,12 @@ import {
     AboutImage
 } from "./AboutElements";
 import pic1 from '/static/media/NewProjectButton.svg';
+import img2 from "/static/media/AboutBackground.svg";
+import img1 from "/static/media/AboutBackgroundMobile.svg";
 const AboutUs = () => {
     return (
         <>
-        <Box id="#aboutus">
+        <Box id="#aboutus" style={{backgroundImage: `url(${img2})`, '@media screen and (max-width: 820px)': {backgroundImage: `url(${img1})`}}}>
             <Row>
                 <span style={{color: "#007aff"}}>Who </span><span>Are We?</span>
                 <p>We're a software company that specializes in digital software solutions for your brand, product or services . We're a company that takes pride in our work, and we want to make sure you understand how important it is to us.</p>
@@ -21,7 +23,7 @@ const AboutUs = () => {
                         duration={500}
                         spy={true}
                         exact='true'>
-                    <img src={pic1}/>
+                    <AboutImage src={pic1}></AboutImage>
                 </Link>
             </Row>
         </Box>
