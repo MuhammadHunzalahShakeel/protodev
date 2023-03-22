@@ -19,7 +19,7 @@ const HeroSection = () => {
     const data= ["Content Writer", "Digital Marketer", "Web Developer", "App Developer", "Graphic Designer", "UI UX Designer", "Social Media Manager", "SEO"]
     return (
         <div id="#home">
-        <HeroRow>
+        <HeroRow style={{backgroundImage: url('/static/media/NavBackground.svg')}}>
             <RightColumn>
                 <h1>We Are</h1>
                     <span style={{color: "#5aff15", fontWeight: "bold"}}>
