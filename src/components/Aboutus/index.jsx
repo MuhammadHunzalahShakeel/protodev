@@ -21,7 +21,7 @@ const AboutUs = () => {
                         duration={500}
                         spy={true}
                         exact='true'>
-                    <AboutImage src={pic1}></AboutImage>
+                    <img src={pic1}/>
                 </Link>
             </Row>
         </Box>
