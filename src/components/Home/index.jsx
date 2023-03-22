@@ -6,6 +6,7 @@ import Typewriter from "typewriter-effect"
 import {GrLinkedinOption, GrInstagram, GrFacebookOption} from 'react-icons/gr';
 import {BiEnvelope} from 'react-icons/bi';
 import img from "/static/media/NewProjectButton.svg";
+import img2 from "/static/media/HomeBackground.svg";
 import { 
     HeroRow,
     RightColumn,
@@ -19,7 +20,7 @@ const HeroSection = () => {
     const data= ["Content Writer", "Digital Marketer", "Web Developer", "App Developer", "Graphic Designer", "UI UX Designer", "Social Media Manager", "SEO"]
     return (
         <div id="#home">
-        <HeroRow style={{backgroundImage: url('/static/media/NavBackground.svg')}}>
+        <HeroRow style={{backgroundImage: `url(${img2})`}}>
             <RightColumn>
                 <h1>We Are</h1>
                     <span style={{color: "#5aff15", fontWeight: "bold"}}>
