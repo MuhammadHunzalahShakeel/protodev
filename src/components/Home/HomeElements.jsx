@@ -22,7 +22,7 @@ export const HeroRow = styled.div`
         margin-top: -10rem;
     }
     grid-gap: 10px;
-    background-image: url(/static/media/ContactImage.svg);
+    background-image: url(/static/media/HomeBackground.svg);
     background-repeat: no-repeat;
     display: flex;
     display: grid;
