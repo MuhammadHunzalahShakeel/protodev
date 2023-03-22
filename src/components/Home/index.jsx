@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect"
 // import TypeWriterEffect from 'react-typewriter-effect';
 import {GrLinkedinOption, GrInstagram, GrFacebookOption} from 'react-icons/gr';
 import {BiEnvelope} from 'react-icons/bi';
-import img from "/static/media/ContactImage.svg";
+import img from "/static/media/NewProjectButton.svg";
 import { 
     HeroRow,
     RightColumn,
