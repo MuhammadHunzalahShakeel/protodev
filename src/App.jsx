@@ -5,7 +5,7 @@ const Sidebar = lazy(() => import('./components/Sidebar'));
 const Navbar = lazy(() => import("./components/Navbar"));
 const Footer = lazy(() => import("./components/Footer"));
 const Home = lazy(() => import("./components/Home"));
-const AboutUs = lazy(() => import("./components/AboutUs"));
+const AboutUs = lazy(() => import("./components/Aboutus"));
 const Services = lazy(() => import("./components/Services"));
 const Testimonials = lazy(() => import("./components/Testimonials"));
 const Contact = lazy(() => import("./components/ContactUs"));
