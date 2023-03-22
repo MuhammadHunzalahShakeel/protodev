@@ -6,7 +6,7 @@ import {
     AboutImage
 } from "./AboutElements";
 import pic1 from '/static/media/NewProjectButton.svg';
-const About = () => {
+const AboutUs = () => {
     return (
         <>
         <Box id="#aboutus">
@@ -28,4 +28,4 @@ const About = () => {
         </>
     );
 }
-export default About;
+export default AboutUs;
