@@ -6,7 +6,7 @@ export const Link = styled(LinkS)`
 `;
 
 export const Box = styled.div`
-    background-image: url(/static/media/AboutBackground.svg);
+    background-image: url(../../static/media/AboutBackground.svg);
     background-size: cover;
     display: flex;
     
