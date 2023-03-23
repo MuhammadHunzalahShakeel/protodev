@@ -10,7 +10,9 @@
 .container:hover .image-overlay {
   display: block;
 }
-
+.mobile-image-overlay {
+  display: block;
+}
 .text, .mobile-container{
   display: none;
 }
@@ -22,6 +24,12 @@
 }
 .container:hover .text {
   display: flex; 
+}
+.mobile-text {
+  display: flex; 
+  position: absolute;
+  bottom: 0;
+  padding: 0 1vw;
 }
 @media screen and (max-width: 760px) {
   .container{
