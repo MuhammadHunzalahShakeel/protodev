@@ -33,13 +33,13 @@ const Footer = () => {
         <Row style={{backgroundImage: `url(${img3})`}}>
             <Container>
                 <p>Connect With Us</p>
-                <Icons>
+                <Icons style={{position: "relative", zIndex: "2"}}>
                     <Icon to="https://www.linkedin.com/company/protodev/" rel='noopener' target='_blank'><FooterImage><GrLinkedinOption/></FooterImage></Icon>
                     <Icon to="https://www.instagram.com/protodev.co/" rel='noopener' target='_blank'><FooterImage><GrInstagram/></FooterImage></Icon>
                     <Icon to="https://www.facebook.com/profile.php?id=100088868936092" rel='noopener' target='_blank'><FooterImage><GrFacebookOption/></FooterImage></Icon>
                     <Icon to="mailto:info@protodev.co" rel='noopener' target='_blank'><FooterImage><BiEnvelope/></FooterImage></Icon>
                 </Icons>
-                <BottomIcon src={img1}></BottomIcon>
+                <BottomIcon style={{zIndex: "1"}} src={img1}></BottomIcon>
             </Container>
             {/* <img src="/static/media/bottomIcon.svg"/> */}
         </Row>
