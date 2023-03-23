@@ -84,6 +84,7 @@ export const NavLogo = styled(LinkR)`
     // height: 100%;
     // cursor: pointer;
     font-size: 1.7rem;
+    // width: 10rem;
 `;
 
 export const NavMenu = styled.ul`
@@ -148,6 +149,18 @@ export const Bar = styled.div`
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 `;
 
+export const Logo = styled.div`
+// margin: 0;
+    padding-top: 6%;
+    // position: relative;
+    // left: 0;
+    width: 100%;
+    // display: flex;
+    // @media screen and (max-width: 760px) {
+    //     justify-content: flex-start;
+    // }
+`;
+
 export const FooterImage = styled.div`
     width: 7vh;
     height: 7vh;
@@ -183,9 +196,9 @@ export const NavLogoImage = styled.img`
 export const BottomIcon = styled.img`
     position: absolute;
     right: 0;
-    width: 25vw;
+    width: 22vw;
     bottom: 0;
     @media screen and (max-width: 760px) {
-        width: 40vw;
+        display: none;
     }
 `;

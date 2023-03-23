@@ -1,4 +1,5 @@
 import React from "react";
+import { NavImage, NavLogo } from "../Navbar/NavbarElements";
 import {
     SidebarContainer,
     Icon,
@@ -6,14 +7,22 @@ import {
     SidebarMenu,
     SidebarLink,
 } from "./SidebarElements"
+import img from "/static/media/Logo.svg";
+import MenuCross from "/static/media/MenuCross.svg";
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
+            <div style={{display: "flex", alignItems: "center", justifyContent: "space-between", margin: "0 2rem", marginTop: "-17.5rem"}}>
+            {/* <NavLogo to="/"> */}
+                <NavImage src={img}></NavImage>
+            {/* </NavLogo> */}
             <Icon onClick={toggle}>
-                <CloseIcon />
+                {/* <CloseIcon /> */}
+                <img src={MenuCross}/>
             </Icon>
-                <SidebarMenu>
+            </div>
+                <SidebarMenu style={{marginTop: "-35rem"}}>
                     <SidebarLink to="#home" onClick={toggle}>Home</SidebarLink>
                     <SidebarLink to="#aboutus" onClick={toggle}>About us</SidebarLink>
                     <SidebarLink to="#services" onClick={toggle}>Services</SidebarLink>

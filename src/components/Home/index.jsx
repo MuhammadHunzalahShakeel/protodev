@@ -42,10 +42,12 @@ const HeroSection = () => {
                         exact='true'>
                     <LinkImage src={img}></LinkImage>
                 </Link><br></br>
+                <div style={{width: "60%", display: "flex", justifyContent: "space-between"}}>
                 <Icon to="https://www.linkedin.com/company/protodev/" rel='noopener' target='_blank'><IconImage><GrLinkedinOption/></IconImage></Icon>
                 <Icon to="https://www.instagram.com/protodev.co/" rel='noopener' target='_blank'><IconImage><GrInstagram/></IconImage></Icon>
                 <Icon to="https://www.facebook.com/profile.php?id=100088868936092" rel='noopener' target='_blank'><IconImage><GrFacebookOption/></IconImage></Icon>
                 <Icon to="mailto:info@protodev.co" rel='noopener' target='_blank'><IconImage><BiEnvelope/></IconImage></Icon>
+                </div>
             </LeftColumn>
         </HeroRow>
         </div>

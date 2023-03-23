@@ -131,7 +131,7 @@ export const Icon = styled(LinkR)`
     margin-top: 12%;
     width: 22%;
     @media screen and (max-width: 760px) {
-        width: 13%;
+        width: 100%;
         margin-right: 8%;
     }
 `;
@@ -151,9 +151,10 @@ export const IconImage = styled.div`
         color: rgb(0, 122, 255);
     }
     @media screen and (max-width: 760px) {
-        font-size: 2.5vh;
-        width: 4vh;
-        height: 4vh;
+        margin-right: 0.5rem;
+        font-size: 3vh;
+        width: 5vh;
+        height: 5vh;
     }
 `;
 
