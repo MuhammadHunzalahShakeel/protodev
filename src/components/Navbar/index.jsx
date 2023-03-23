@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
                     {/* <FaBars style={{width: "60%", marginTop: "30%"}} /> */}
                 </MobileIcon>
                 <NavMenu>
-                    <NavItem>
+                    {/* <NavItem> */}
                         <NavLinks onClick={navigateToProfile} to="#home"
                         smooth={true}
                         duration={500}
@@ -39,8 +39,8 @@ const Navbar = ({ toggle }) => {
                         exact='true'
                         // offset={-80}
                         >Home</NavLinks>
-                    </NavItem>
-                    <NavItem>
+                    {/* </NavItem> */}
+                    {/* <NavItem> */}
                         <NavLinks onClick={navigateToProfile} to="#aboutus"
                         smooth={true}
                         duration={500}
@@ -48,8 +48,8 @@ const Navbar = ({ toggle }) => {
                         exact='true'
                         // offset={-80}
                         >About us</NavLinks>
-                    </NavItem>
-                    <NavItem>
+                    {/* </NavItem> */}
+                    {/* <NavItem> */}
                         <NavLinks style={{marginRight: "0px"}}
                         onClick={navigateToProfile} to="#services"
                         smooth={true}
@@ -58,13 +58,13 @@ const Navbar = ({ toggle }) => {
                         exact='true'
                         // offset={-80}
                         >Services</NavLinks>
-                    </NavItem>
-                </NavMenu>
+                    {/* </NavItem> */}
+                {/* </NavMenu> */}
                     <NavLogo to="/" onClick={toggleHome}>
                         <NavImage src={img}></NavImage>
                     </NavLogo>
-                <NavMenu>
-                    <NavItem>
+                {/* <NavMenu> */}
+                    {/* <NavItem> */}
                         <NavLinks onClick={navigateToProfile} to="#portfolio"
                         smooth={true}
                         duration={500}
@@ -72,8 +72,8 @@ const Navbar = ({ toggle }) => {
                         exact='true'
                         // offset={-80}
                         >Portfolio</NavLinks>
-                    </NavItem>
-                    <NavItem>
+                    {/* </NavItem> */}
+                    {/* <NavItem> */}
                         <NavLinks onClick={navigateToProfile} to="#testimonials"
                         smooth={true}
                         duration={500}
@@ -81,8 +81,8 @@ const Navbar = ({ toggle }) => {
                         exact='true'
                         // offset={-80}
                         >Testimonials</NavLinks>
-                    </NavItem>
-                    <NavItem>
+                    {/* </NavItem> */}
+                    {/* <NavItem> */}
                         <NavLinks onClick={navigateToProfile} to="#contactus"
                         smooth={true}
                         duration={500}
@@ -90,7 +90,7 @@ const Navbar = ({ toggle }) => {
                         exact='true'
                         // offset={-80}
                         >Contact Us</NavLinks>
-                    </NavItem>
+                    {/* </NavItem> */}
                 </NavMenu>
             {/* </NavbarContainer> */}
         </Nav>

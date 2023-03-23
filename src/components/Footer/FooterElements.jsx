@@ -37,7 +37,7 @@ export const Container = styled.div`
 `;
 
 export const Icons = styled.div`
-    margin-left: 20%;
+    margin-left: 20vw;
     display: inline-block;
     cursor: pointer;
     @media screen and (max-width: 760px) {

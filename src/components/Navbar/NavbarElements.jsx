@@ -52,13 +52,17 @@ export const MobileIcon = styled.div`
 `;
 
 export const NavMenu = styled.ul`
-    grid-gap: 60px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    list-style: none;
+    // grid-gap: 60px;
+    // align-items: center;
+    // display: grid;
+    // grid-template-columns: repeat(3,auto);
+    // list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     
     @media screen and (max-width: 980px) {
         display: none;
@@ -78,7 +82,7 @@ export const NavLinks = styled(LinkS)`
     color: #fff;
     font-family: Neue Machina;
     margin-left: 0;
-    margin-right: 1rem;
+    // margin-right: 1rem;
     padding-bottom: 1.7rem;
     padding-top: 1.7rem;
     text-decoration: none;
