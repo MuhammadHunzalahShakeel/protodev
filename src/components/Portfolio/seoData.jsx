@@ -11,30 +11,35 @@ export const seoData = [
         hoverimg: pic2,
         hoverimg2: img1,
         text:"Drop Cloth Post",
-        url:"https://www.behance.net/gallery/164151285/Drop-Cloth-Posts"
+        url:"https://www.behance.net/gallery/164151285/Drop-Cloth-Posts",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img:"",
         hoverimg:"",
         hoverimg2:"",
         text:"",
-        url:""
+        url:"",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic3,
         hoverimg: pic4,
         hoverimg2: img1,
         text:"The Wok Story Post",
-        url:"https://www.behance.net/gallery/163928689/The-Wok-Story-Social-Media-Posts"
+        url:"https://www.behance.net/gallery/163928689/The-Wok-Story-Social-Media-Posts",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic5,
         hoverimg: pic6,
         hoverimg2: img1,
         text:"Dental Clinic Post",
-        url:"https://www.behance.net/gallery/164151075/Dental-Clinic-Posts"
+        url:"https://www.behance.net/gallery/164151075/Dental-Clinic-Posts",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img:"",
         hoverimg:"",
         hoverimg2:"",
         text:"",
-        url:""
+        url:"",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     }
 ]

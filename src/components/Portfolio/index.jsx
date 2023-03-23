@@ -93,25 +93,8 @@ const Portfolio = () => {
         setDevelopmentColor("#141414");
         setCopywritingColor("#141414");
     }
-    const [hovered, setHovered] = useState(false);
-
-  const handleHover = () => {
-    setHovered(true);
-  };
-
-  const handleLeave = () => {
-    setHovered(false);
-  };
     return (
         <Back style={{backgroundImage: `url(${img5})`}} id="#portfolio">
-            <div className="container">
-      <div className="image-overlay">
-        <img src="/static/media/PortfolioImage111.svg" alt="Overlay" />
-      </div>
-      <div className="text">
-        <h3>Some text here</h3>
-      </div>
-    </div>
             <Row>
                 <Column1>
                     <span>We Create And</span><br></br><span style={{color: "#5aff15"}}>Innovate</span>
@@ -173,7 +156,7 @@ const Portfolio = () => {
                 <ImageColumn>
                     <PortfolioImage 
                         img={data[2]['img']}
-                        style={{width: "25vw", marginRight: "1.5vw", marginLeft: "1.5vw"}}
+                        style={{width: "25vw"}}
                         hoverimg={data[2]['hoverimg']}
                         hoverimg2={data[2]['hoverimg2']}
                         text={data[2]['text']}
@@ -202,7 +185,17 @@ const Portfolio = () => {
                 </ImageColumn>
             </ImagesBox>
             <ImagesBox2>
-                {data[0]['img']!==""?
+                {data.map((obj)=>(
+                    obj['img']!==""?
+                    <PortfolioImage2 
+                        img={obj['img']}
+                        style={obj?.mobStyle}
+                        hoverimg={obj['hoverimg']}
+                        text={obj['text']}
+                        url={obj['url']}
+                    />:''
+                ))}
+                {/* {data[0]['img']!==""?
                 <PortfolioImage2 
                     img={data[0]['img']}
                     style={{width: "100%", margin: "4vw 0"}}
@@ -241,7 +234,7 @@ const Portfolio = () => {
                     hoverimg={data[2]['hoverimg']}
                     text={data[2]['text']}
                     url={data[0]['url']}
-                />:''}
+                />:''} */}
             </ImagesBox2>
         </Back>
     );

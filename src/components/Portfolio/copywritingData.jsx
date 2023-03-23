@@ -11,30 +11,35 @@ export const copywritingData = [
         hoverimg: pic2,
         hoverimg2: img1,
         text:"FIZZY Branding",
-        url:"https://www.behance.net/gallery/164139703/Fizzy-Branding"
+        url:"https://www.behance.net/gallery/164139703/Fizzy-Branding",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img:"",
         hoverimg:"",
         hoverimg2:"",
         text:"",
-        url:""
+        url:"",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic3,
         hoverimg: pic4,
         hoverimg2: img1,
         text:"DEALSTREE Branding",
-        url:"https://www.behance.net/gallery/164139139/Dealstree-Branding"
+        url:"https://www.behance.net/gallery/164139139/Dealstree-Branding",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic5,
         hoverimg: pic6,
         hoverimg2: img1,
         text:"BOOMBOX Branding",
-        url:"https://www.behance.net/gallery/164140015/Boombox-Branding"
+        url:"https://www.behance.net/gallery/164140015/Boombox-Branding",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img:"",
         hoverimg:"",
         hoverimg2:"",
         text:"",
-        url:""
+        url:"",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     }
 ]

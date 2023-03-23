@@ -1,4 +1,4 @@
-import img1 from "/static/media/PortfolioImage111.svg";
+import img1 from "/static/media/PortfolioImage333.svg";
 import pic1 from "/static/media/PortfolioImagedevelopment1.svg";
 import pic2 from "/static/media/PortfolioImagedevelopment11.svg";
 import pic3 from "/static/media/PortfolioImagedesign3.svg";
@@ -11,30 +11,35 @@ export const developmentData = [
         hoverimg: pic2,
         hoverimg2: img1,
         text:"Lead Business Website Development",
-        url:"https://www.theleadwhisperers.com/"
+        url:"https://www.theleadwhisperers.com/",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img:"",
         hoverimg:"",
         hoverimg2:"",
         text:"",
-        url:""
+        url:"",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic3,
         hoverimg: pic4,
         hoverimg2: img1,
         text:"Trading Website Development",
-        url:"https://eztrades.io/"
+        url:"https://eztrades.io/",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic5,
         hoverimg: pic6,
         hoverimg2: img1,
         text:"Agency Website Development",
-        url:"https://www.clearspace.to/"
+        url:"https://www.clearspace.to/",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img:"",
         hoverimg:"",
         hoverimg2:"",
         text:"",
-        url:""
+        url:"",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     }
 ]
