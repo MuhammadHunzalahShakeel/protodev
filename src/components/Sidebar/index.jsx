@@ -13,16 +13,16 @@ import MenuCross from "/static/media/MenuCross.svg";
 const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            <div style={{display: "flex", alignItems: "center", justifyContent: "space-between", margin: "0 2rem", marginTop: "-17.5rem"}}>
+            <div style={{display: "flex", alignItems: "center", justifyContent: "space-between", margin: "0 2rem", marginTop: "3rem"}}>
             {/* <NavLogo to="/"> */}
                 <NavImage src={img}></NavImage>
             {/* </NavLogo> */}
             <Icon onClick={toggle}>
                 {/* <CloseIcon /> */}
-                <img src={MenuCross}/>
+                <img style={{paddingBottom: "2px"}} src={MenuCross}/>
             </Icon>
             </div>
-                <SidebarMenu style={{marginTop: "-35rem"}}>
+                <SidebarMenu style={{marginTop: "3.5rem"}}>
                     <SidebarLink to="#home" onClick={toggle}>Home</SidebarLink>
                     <SidebarLink to="#aboutus" onClick={toggle}>About us</SidebarLink>
                     <SidebarLink to="#services" onClick={toggle}>Services</SidebarLink>

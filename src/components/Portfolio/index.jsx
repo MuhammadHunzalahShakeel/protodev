@@ -191,6 +191,7 @@ const Portfolio = () => {
                         img={obj['img']}
                         style={obj?.mobStyle}
                         hoverimg={obj['hoverimg']}
+                        hoverimg2={obj['hoverimg2']}
                         text={obj['text']}
                         url={obj['url']}
                     />:''
