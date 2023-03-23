@@ -1,8 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+// import { FaBars } from "react-icons/fa";
 import { animateScroll } from "react-scroll";
 import img from "/static/media/Logo.svg";
+import MenuIcon from "/static/media/MenuIcon.svg";
 import {
     Nav,
     NavLogo,
@@ -26,7 +27,8 @@ const Navbar = ({ toggle }) => {
         <Nav>
             {/* <NavbarContainer> */}
                 <MobileIcon onClick={toggle}>
-                    <FaBars style={{width: "60%", marginTop: "30%"}} />
+                    <img style={{width: "100%", marginTop: "140%"}} src={MenuIcon}/>
+                    {/* <FaBars style={{width: "60%", marginTop: "30%"}} /> */}
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>

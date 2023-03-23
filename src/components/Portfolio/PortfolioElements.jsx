@@ -99,8 +99,8 @@ export const ImageBox2 = styled(Link)`
     justify-content: center;
     margin-left: -0.4vw;
     @media screen and (max-width: 760px) {
-        width: 7vw;
-        height: 7vw;
+        width: 10vw;
+        height: 10vw;
         margin-left: -1.2vw;
     }
 `;

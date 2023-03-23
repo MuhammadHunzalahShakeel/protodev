@@ -17,6 +17,7 @@ import {
     NavLinks,
     Line,
     Bar,
+    Logo,
     Icons,
     FooterImage,
     NavLogoImage,
@@ -43,11 +44,11 @@ const Footer = () => {
             {/* <img src="/static/media/bottomIcon.svg"/> */}
         </Row>
         <Bar style={{backgroundImage: `url(${img4})`}}>
-            <div style={{paddingTop: "6%"}}>
+            <Logo>
                 <NavLogo to="/" onClick={toggleHome}>
                     <NavLogoImage src={img2}></NavLogoImage>
                 </NavLogo>
-            </div>
+            </Logo>
             <Nav>
             <NavMenu>
                     <NavItem>

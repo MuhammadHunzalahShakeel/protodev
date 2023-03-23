@@ -32,6 +32,10 @@ export const NavLogo = styled(LinkR)`
     // height: 100%;
     // cursor: pointer;
     // font-size: 1.7rem;
+    @media screen and (max-width: 760px) {
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
 `;
 
 export const MobileIcon = styled.div`
