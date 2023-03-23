@@ -11,7 +11,7 @@
   display: block;
 }
 
-.text{
+.text, .mobile-container{
   display: none;
 }
 .text {
@@ -22,4 +22,12 @@
 }
 .container:hover .text {
   display: flex; 
+}
+@media screen and (max-width: 760px) {
+  .container{
+    display: none;
+  }
+  .mobile-container{
+    display: block;
+  }
 }

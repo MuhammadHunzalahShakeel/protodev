@@ -116,6 +116,7 @@ export const ImagesBox = styled.div`
     width: 80%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     @media screen and (max-width: 760px) {
         display: none;
     }

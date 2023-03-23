@@ -1,4 +1,8 @@
 import img1 from "/static/media/PortfolioImage111.svg";
+import img2 from "/static/media/PortfolioImage222.svg";
+import img3 from "/static/media/PortfolioImage333.svg";
+import img4 from "/static/media/PortfolioImage444.svg";
+import img5 from "/static/media/PortfolioImage555.svg";
 import pic1 from "/static/media/PortfolioImagedesign1.svg";
 import pic2 from "/static/media/PortfolioImagedesign11.svg";
 import pic3 from "/static/media/PortfolioImagedesign2.svg";
@@ -15,30 +19,35 @@ export const designData = [
         hoverimg: pic2,
         hoverimg2: img1,
         text:"Food App Design",
-        url:"https://www.behance.net/gallery/150337643/Food-Mobile-App"
+        url:"https://www.behance.net/gallery/150337643/Food-Mobile-App",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic3,
         hoverimg: pic4,
-        hoverimg2: img1,
+        hoverimg2: img2,
         text:"NFT Website Design",
-        url:"https://www.behance.net/gallery/164166517/Planet-Nft-Landing-Page-Design"
+        url:"https://www.behance.net/gallery/164166517/Planet-Nft-Landing-Page-Design",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic5,
         hoverimg: pic6,
-        hoverimg2: img1,
+        hoverimg2: img3,
         text:"Trading Website Design",
-        url:"https://www.behance.net/gallery/164147031/EZtradesio-Trading-Website-Design"
+        url:"https://www.behance.net/gallery/164147031/EZtradesio-Trading-Website-Design",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic7,
         hoverimg: pic8,
-        hoverimg2: img1,
+        hoverimg2: img4,
         text:"Gaming Landing Design",
-        url:"https://www.behance.net/gallery/164166877/Thunder-Gaming-Landing-Page-Design"
+        url:"https://www.behance.net/gallery/164166877/Thunder-Gaming-Landing-Page-Design",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     },{
         img: pic9,
         hoverimg: pic10,
-        hoverimg2: img1,
+        hoverimg2: img5,
         text:"Vehicle App Design",
-        url:"https://www.behance.net/protodev"
+        url:"https://www.behance.net/protodev",
+        mobStyle: {width: "100%", margin: "4vw 0"}
     }
 ]

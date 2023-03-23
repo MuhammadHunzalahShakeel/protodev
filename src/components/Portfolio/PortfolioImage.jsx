@@ -41,6 +41,7 @@ const PortfolioImage = ({ img, style, hoverimg, hoverimg2, text, url }) => {
                 </ImageBox2>
             </div>
         </div> */}
+        {console.log(img)}
         <div className="container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Image className="image" style={style} src={hovering? hoverimg:img}></Image>
             <div style={{position: "absolute", top: "0"}} className="HoverImage" id={img}>
