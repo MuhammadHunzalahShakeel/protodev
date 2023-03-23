@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+}
+
+.image-overlay {
+  width: 25vw;
+  display: none;
+}
+
+.container:hover .image-overlay {
+  display: block;
+}
+
+.text{
+  display: none;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  padding: 0 1vw;
+  display: none; 
+}
+.container:hover .text {
+  display: flex; 
+}

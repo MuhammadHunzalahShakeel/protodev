@@ -24,6 +24,8 @@ import PortfolioImage from "./PortfolioImage";
 import PortfolioImage2 from "./PortfolioImage2";
 import { useState } from "react";
 import img5 from "/static/media/ProtfolioBackground.svg";
+import './Styles.css'
+import { useEffect } from "react";
 
 const Portfolio = () => {
     const [data, setData] = useState(designData);
@@ -31,6 +33,38 @@ const Portfolio = () => {
     const [copywritingColor, setCopywritingColor] = useState("#141414");
     const [developmentColor, setDevelopmentColor] = useState("#141414");
     const [seoColor, setSeoColor] = useState("#141414");
+    const [click, setClick] = useState(false);
+    const [click2, setClick2] = useState(false);
+    const [click3, setClick3] = useState(false);
+    const [click1, setClick1] = useState(true);
+    useEffect(() => {
+        setData(copywritingData);
+        setSeoColor("#141414");
+        setDesignColor("#141414");
+        setDevelopmentColor("#141414");
+        setCopywritingColor("#007AFF");
+    },[click]);
+    useEffect(() => {
+        setData(developmentData);
+        setSeoColor("#141414");
+        setDesignColor("#141414");
+        setDevelopmentColor("#007AFF");
+        setCopywritingColor("#141414");
+    },[click2]);
+    useEffect(() => {
+        setData(seoData);
+        setSeoColor("#007AFF");
+        setDesignColor("#141414");
+        setDevelopmentColor("#141414");
+        setCopywritingColor("#141414");
+    },[click3]);
+    useEffect(() => {
+        setData(designData);
+        setSeoColor("#141414");
+        setDesignColor("#007AFF");
+        setDevelopmentColor("#141414");
+        setCopywritingColor("#141414");
+    },[click1]);
     const setCopywritingData = () => {
         setData(copywritingData);
         setSeoColor("#141414");
@@ -59,8 +93,25 @@ const Portfolio = () => {
         setDevelopmentColor("#141414");
         setCopywritingColor("#141414");
     }
+    const [hovered, setHovered] = useState(false);
+
+  const handleHover = () => {
+    setHovered(true);
+  };
+
+  const handleLeave = () => {
+    setHovered(false);
+  };
     return (
         <Back style={{backgroundImage: `url(${img5})`}} id="#portfolio">
+            <div className="container">
+      <div className="image-overlay">
+        <img src="/static/media/PortfolioImage111.svg" alt="Overlay" />
+      </div>
+      <div className="text">
+        <h3>Some text here</h3>
+      </div>
+    </div>
             <Row>
                 <Column1>
                     <span>We Create And</span><br></br><span style={{color: "#5aff15"}}>Innovate</span>
@@ -68,13 +119,13 @@ const Portfolio = () => {
                 </Column1>
                 <Column2>
                     <ButtonRow style={{marginBottom: '1rem'}}>
-                        <Button style={{backgroundColor: designColor,cursor: "pointer"}} onClick={setDesignData}>
+                        <Button style={{backgroundColor: designColor,cursor: "pointer"}} onClick={()=>{setClick1(!click1)}}>
                             <ImageBox>
                                 <Icon src={img1}></Icon>
                             </ImageBox>
                             <p>Design</p>
                         </Button>
-                        <Button style={{backgroundColor: developmentColor,cursor: "pointer"}} onClick={setDevelopmentData}>
+                        <Button style={{backgroundColor: developmentColor,cursor: "pointer"}} onClick={()=>{setClick2(!click2)}}>
                             <ImageBox>
                                 <Icon src={img2}></Icon>
                             </ImageBox>
@@ -82,13 +133,13 @@ const Portfolio = () => {
                         </Button>
                     </ButtonRow>
                     <ButtonRow>
-                        <Button style={{backgroundColor: copywritingColor,cursor: "pointer"}} onClick={setCopywritingData}>
+                        <Button style={{backgroundColor: copywritingColor,cursor: "pointer"}} onClick={()=>{setClick(!click)}}>
                             <ImageBox>
                                 <Icon src={img3}></Icon>
                             </ImageBox>
                             <p>Branding</p>
                         </Button>
-                        <Button style={{backgroundColor: seoColor,cursor: "pointer"}} onClick={setSEOData}>
+                        <Button style={{backgroundColor: seoColor,cursor: "pointer"}} onClick={()=>{setClick3(!click3)}}>
                             <ImageBox>
                                 <Icon src={img4}></Icon>
                             </ImageBox>
@@ -99,6 +150,7 @@ const Portfolio = () => {
             </Row>
             <ImagesBox>
                 <ImageColumn>
+                {data[0]['img']!==""?
                     <PortfolioImage 
                         img={data[0]['img']}
                         style={{width: "25vw", marginBottom: "1.6vw"}}
@@ -106,7 +158,8 @@ const Portfolio = () => {
                         hoverimg2={data[0]['hoverimg2']}
                         text={data[0]['text']}
                         url={data[0]['url']}
-                    />
+                    />:''}
+                {data[1]['img']!==""?
                     <PortfolioImage 
                         img={data[1]['img']}
                         style={{width: "25vw"}}
@@ -114,8 +167,9 @@ const Portfolio = () => {
                         hoverimg2={data[1]['hoverimg2']}
                         text={data[1]['text']}
                         url={data[0]['url']}
-                    />
+                    />:''}
                 </ImageColumn>
+                {data[2]['img']!==""?
                 <ImageColumn>
                     <PortfolioImage 
                         img={data[2]['img']}
@@ -125,8 +179,9 @@ const Portfolio = () => {
                         text={data[2]['text']}
                         url={data[0]['url']}
                     />
-                </ImageColumn>
+                </ImageColumn>:''}
                 <ImageColumn>
+                    {data[3]['img']!==""?
                     <PortfolioImage 
                         img={data[3]['img']}
                         style={{width: "25vw", marginBottom: "1.6vw"}}
@@ -134,7 +189,8 @@ const Portfolio = () => {
                         hoverimg2={data[3]['hoverimg2']}
                         text={data[3]['text']}
                         url={data[0]['url']}
-                    />
+                    />:''}
+                    {data[4]['img']!==""?
                     <PortfolioImage 
                         img={data[4]['img']} 
                         style={{width: "25vw"}}
@@ -142,45 +198,50 @@ const Portfolio = () => {
                         hoverimg2={data[4]['hoverimg2']}
                         text={data[4]['text']}
                         url={data[0]['url']}
-                    />
+                    />:''}
                 </ImageColumn>
             </ImagesBox>
             <ImagesBox2>
+                {data[0]['img']!==""?
                 <PortfolioImage2 
                     img={data[0]['img']}
                     style={{width: "100%", margin: "4vw 0"}}
                     hoverimg={data[0]['hoverimg']}
                     text={data[0]['text']}
                     url={data[0]['url']}
-                />
+                />:''}
+                {data[1]['img']!==""?
                 <PortfolioImage2 
                     img={data[1]['img']}
                     style={{width: "100%", margin: "4vw 0"}}
                     hoverimg={data[1]['hoverimg']}
                     text={data[1]['text']}
                     url={data[0]['url']}
-                />
+                />:''}
+                {data[3]['img']!==""?
                 <PortfolioImage2 
                     img={data[3]['img']}
                     style={{width: "100%", margin: "4vw 0"}}
                     hoverimg={data[3]['hoverimg']}
                     text={data[3]['text']}
                     url={data[0]['url']}
-                />
+                />:''}
+                {data[4]['img']!==""?
                 <PortfolioImage2
                     img={data[4]['img']} 
                     style={{width: "100%", margin: "4vw 0"}}
                     hoverimg={data[4]['hoverimg']}
                     text={data[4]['text']}
                     url={data[0]['url']}
-                />
+                />:''}
+                {data[2]['img']!==""?
                 <PortfolioImage2 
                     img={data[2]['img']}
                     style={{width: "100%", margin: "4vw 0"}}
                     hoverimg={data[2]['hoverimg']}
                     text={data[2]['text']}
                     url={data[0]['url']}
-                />
+                />:''}
             </ImagesBox2>
         </Back>
     );
