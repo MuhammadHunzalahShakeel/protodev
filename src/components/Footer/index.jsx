@@ -108,7 +108,7 @@ const Footer = () => {
                 </NavMenu>
             </Nav>
             <Line></Line>
-            <p style={{fontSize: "14px", marginTop: "2%"}}>© 2023 . All Rights Reserved by ProtoDev.Co</p>
+            <p style={{fontSize: "14px", marginTop: "2%", textAlign: "center"}}>© 2023 . All Rights Reserved by ProtoDev.Co</p>
         </Bar>
         </>
     );

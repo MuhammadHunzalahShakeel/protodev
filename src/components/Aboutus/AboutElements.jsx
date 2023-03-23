@@ -6,13 +6,13 @@ export const Link = styled(LinkS)`
 `;
 
 export const Box = styled.div`
-    // background-image: url(/static/media/AboutBackground.svg);
+    background-image: url(/static/media/AboutBackground.svg);
     background-size: cover;
     display: flex;
     
-    // @media screen and (max-width: 820px) {
-    //     // background-image: url(/static/media/AboutBackgroundMobile.svg);
-    // }
+    @media screen and (max-width: 820px) {
+        background-image: url(/static/media/AboutBackgroundMobile.svg);
+    }
 `;
 
 export const Row = styled.div`

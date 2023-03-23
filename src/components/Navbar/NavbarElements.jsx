@@ -11,7 +11,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     padding: 0 110px;
     position: relative;
-    width: 70%;
+    width: 80%;
     margin: auto;
     z-index: 1;
     @media screen and (max-width: 980px) {
@@ -34,7 +34,6 @@ export const NavLogo = styled(LinkR)`
     // font-size: 1.7rem;
     @media screen and (max-width: 760px) {
         margin-top: 2rem;
-        margin-left: -1.5rem;
     }
 `;
 
@@ -53,7 +52,7 @@ export const MobileIcon = styled.div`
 `;
 
 export const NavMenu = styled.ul`
-    grid-gap: 10px;
+    grid-gap: 60px;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(3,auto);

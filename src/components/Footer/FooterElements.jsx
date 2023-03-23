@@ -143,22 +143,20 @@ export const Bar = styled.div`
     // background-image: url(/static/media/FooterBackground.svg);
     height: 22rem;
     color: #fff;
-    justify-content: center;
-    align-items: center;
+    // align-items: center;
+    // justify-content: center;
     text-align: center;
+    @media screen and (max-width: 760px) {
+        text-align: left;
+    }
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 `;
 
 export const Logo = styled.div`
-// margin: 0;
     padding-top: 6%;
-    // position: relative;
-    // left: 0;
-    width: 100%;
-    // display: flex;
-    // @media screen and (max-width: 760px) {
-    //     justify-content: flex-start;
-    // }
+    @media screen and (max-width: 760px) {
+        padding-left: 10vw;
+    }
 `;
 
 export const FooterImage = styled.div`
