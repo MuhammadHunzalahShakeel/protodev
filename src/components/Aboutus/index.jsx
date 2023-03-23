@@ -11,7 +11,7 @@ import img1 from "/static/media/AboutBackgroundMobile.svg";
 const AboutUs = () => {
     return (
         <>
-        <Box id="#aboutus" style={{backgroundImage: `url(${img2})`, '@media screen and (max-width: 820px)': {backgroundImage: `url(${img1})`}}}>
+        <Box id="#aboutus">
             <Row>
                 <span style={{color: "#007aff"}}>Who </span><span>Are We?</span>
                 <p>We're a software company that specializes in digital software solutions for your brand, product or services . We're a company that takes pride in our work, and we want to make sure you understand how important it is to us.</p>
