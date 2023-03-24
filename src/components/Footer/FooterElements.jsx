@@ -28,10 +28,15 @@ export const Container = styled.div`
         margin-left: 5%;
     }
     @media screen and (max-width: 760px) {
+        margin: 0;
+        padding: 0;
+        width: 100%;
         p {
-            margin: auto;
-            width: 100%;
-            margin-top: 5%;
+            margin-left: 0;
+            padding-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 `;
@@ -46,7 +51,6 @@ export const Icons = styled.div`
         align-items: center;
         margin: auto;
         width: 100%;
-        margin-top: 5%;
     }
 `;
 

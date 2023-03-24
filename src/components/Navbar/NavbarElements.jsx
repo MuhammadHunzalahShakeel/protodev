@@ -64,9 +64,9 @@ export const NavMenu = styled.ul`
     justify-content: space-between;
     width: 100%;
     
-    @media screen and (max-width: 980px) {
-        display: none;
-    }
+    // @media screen and (max-width: 980px) {
+    //     display: none;
+    // }
 `;
 
 export const NavItem = styled.li`
@@ -90,6 +90,9 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
     &:hover {
         color: #5aff15;
+    }
+    @media screen and (max-width: 980px) {
+        display: none;
     }
 `;
 

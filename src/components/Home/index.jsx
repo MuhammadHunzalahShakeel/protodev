@@ -17,7 +17,7 @@ import {
     IconImage
 } from "./HomeElements";
 const HeroSection = () => {
-    const data= ["Content Writer", "Digital Marketer", "Web Developer", "App Developer", "Graphic Designer", "UI UX Designer", "Social Media Manager", "SEO"]
+    const data= ["UI UX Designer", "Graphic Designer", "Web Developer", "App Developer", "Content Writer", "SEO Experts", "Social Media Manager"]
     return (
         <div id="#home">
         <HeroRow style={{backgroundImage: `url(${img2})`}}>
