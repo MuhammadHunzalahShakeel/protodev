@@ -11,7 +11,7 @@ import {
     ForwardImage,
     BackwardImage
 } from "./TestimonialsElements";
-import img1 from "/static/media/TestimonialsSubBackground.svg";
+import img1 from "/static/media/TestimonialsSubBackground.webp";
 import img2 from "/static/media/TestimonialsSubBackgroundMobile.svg";
 import img3 from "/static/media/TestimonialsQuoteVector.svg";
 import img4 from "/static/media/TestimonialsForwardButton.svg";

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import "./Testimonials.css"
-import testimonialssubBackground from "../../assets/TestimonialsSubBackground.svg"
+import testimonialssubBackground from "../../assets/TestimonialsSubBackground.webp"
 import testimonialssubBackgroundMobile from "../../assets/TestimonialsSubBackgroundMobile.svg"
 import testimonialsQuote from "../../assets/TestimonialsQuoteVector.svg"
 import testimonialsForwardButton from "../../assets/TestimonialsForwardButton.svg"
