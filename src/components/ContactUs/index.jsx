@@ -18,25 +18,24 @@ import {
 
 const Contact = () => {
     const [value, setValue] = useState()
-    const [show, setShow] = useState("flex")
     const form = useRef();
-    const sendEmail = (e) => {
-      if(show==="flex"){
-          setShow("none");
-          e.preventDefault();
-          e.target.reset();
-          emailjs.sendForm('service_protodev', 'template_protodev', form.current, '62o-Tx0ft0e1vcTrF')
-            .then((result) => {
-                console.log(result.text);
-                toast.success("We receive your message.Our Team will get back to you soon!!",
-                  {theme: "dark"});
-                  setShow("flex");
-              }, (error) => {
-                console.log(error.text);
-                setShow("flex");
-              });
-      }
-        };
+    const [show, setShow] = useState("flex")
+    function sendEmail(e){
+        if(show==="flex"){
+        setShow("none");
+        e.preventDefault();
+        emailjs.sendForm('service_protodev', 'template_protodev', e.target, '62o-Tx0ft0e1vcTrF')
+        .then((result) => {
+            console.log(result.text);
+            toast.success("We Received Your Message. Our Team will get back to you soon!!",{theme: "dark"});
+            setShow("flex");
+        }, (error) => {
+            console.log(error.text);
+            setShow("flex");
+        });
+        e.target.reset()
+        }
+    }
     return (
         <>
         <Row id="#contactus">
@@ -52,8 +51,8 @@ const Contact = () => {
                     <Right><input type="text" name='user_subject' class="subject" placeholder="Subject" required/></Right>
                     <Left><input type="text" name='user_budget' class="budget" placeholder="Budget" required/></Left>
                     <Bottom><input type="text" name='message' class="message" placeholder="Message" required/></Bottom>
-                    <button type="submit">
-                        <Column2Image style={{display:show}}  src={img2}></Column2Image>
+                    <button type="submit" style={{display:show}}>
+                        <Column2Image src={img2}></Column2Image>
                     </button>
                     <ToastContainer />
                 </form>
