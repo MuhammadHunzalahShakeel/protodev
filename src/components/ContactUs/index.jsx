@@ -25,7 +25,7 @@ const Contact = () => {
           setShow("none");
           e.preventDefault();
           e.target.reset();
-          emailjs.sendForm('service_nu8s1h9', 'template_5bfulk7', form.current, '62o-Tx0ft0e1vcTrF')
+          emailjs.sendForm('service_protodev', 'template_protodev', form.current, '62o-Tx0ft0e1vcTrF')
             .then((result) => {
                 console.log(result.text);
                 toast.success("We receive your message.Our Team will get back to you soon!!",
