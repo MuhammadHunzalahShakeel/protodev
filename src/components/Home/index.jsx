@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect"
 import {GrLinkedinOption, GrInstagram, GrFacebookOption} from 'react-icons/gr';
 import {BiEnvelope} from 'react-icons/bi';
 import img from "/static/media/NewProjectButton.svg";
-import img2 from "/static/media/HomeBackground.svg";
+import img2 from "/static/media/HomeBackground.webp";
 import { 
     HeroRow,
     RightColumn,

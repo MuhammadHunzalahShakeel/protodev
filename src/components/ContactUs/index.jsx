@@ -3,7 +3,7 @@ import {useState} from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
-import img1 from "/static/media/ContactImage.svg";
+import img1 from "/static/media/ContactImage.webp";
 import img2 from "/static/media/SubmitButton.svg";
 import { 
     Row,

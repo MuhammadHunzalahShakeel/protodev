@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkS } from 'react-scroll';
-import img2 from "/static/media/AboutBackground.svg";
+import img2 from "/static/media/AboutBackground.png";
 import img1 from "/static/media/AboutBackgroundMobile.svg";
 
 

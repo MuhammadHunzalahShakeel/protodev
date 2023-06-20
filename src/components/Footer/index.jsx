@@ -5,7 +5,7 @@ import {BiEnvelope} from 'react-icons/bi';
 import img1 from "/static/media/bottomIcon.svg";
 import img2 from "/static/media/Logo.svg";
 import img3 from "/static/media/ConnectBackground.svg";
-import img4 from "/static/media/FooterBackground.svg";
+import img4 from "/static/media/FooterBackground.webp";
 import {
     Row,
     NavLogo,

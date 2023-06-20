@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
-import ContactImage from "../../assets/ContactImage.svg"
+import ContactImage from "../../assets/ContactImage.webp"
 import SubmitButton from "../../assets/SubmitButton.svg"
 
 

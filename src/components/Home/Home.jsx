@@ -8,7 +8,7 @@ import BehanceIcon from "../../assets/BehanceIcon.svg"
 import FacebookIcon from "../../assets/FacebookIcon.svg"
 import InstagramIcon from "../../assets/InstagramIcon.svg"
 import EmailIcon from "../../assets/EmailIcon.svg"
-import HomeBackground from "../../assets/HomeBackground.svg"
+import HomeBackground from "../../assets/HomeBackground.webp"
 
 const Home = () => {
   const myStyle={
