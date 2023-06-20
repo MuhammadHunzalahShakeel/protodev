@@ -1,10 +1,10 @@
 import img1 from "/static/media/PortfolioImage111.svg";
-import pic1 from "/static/media/PortfolioImageBranding1.svg";
-import pic2 from "/static/media/PortfolioImageBranding11.svg";
-import pic3 from "/static/media/PortfolioImageBranding3.svg";
-import pic4 from "/static/media/PortfolioImageBranding33.svg";
-import pic5 from "/static/media/PortfolioImageBranding4.svg";
-import pic6 from "/static/media/PortfolioImageBranding44.svg";
+import pic1 from "/static/media/PortfolioImageBranding1.webp";
+import pic2 from "/static/media/PortfolioImageBranding11.webp";
+import pic3 from "/static/media/PortfolioImageBranding3.webp";
+import pic4 from "/static/media/PortfolioImageBranding33.webp";
+import pic5 from "/static/media/PortfolioImageBranding4.webp";
+import pic6 from "/static/media/PortfolioImageBranding44.webp";
 export const copywritingData = [
     {
         img: pic1,

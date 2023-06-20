@@ -3,16 +3,16 @@ import img2 from "/static/media/PortfolioImage222.svg";
 import img3 from "/static/media/PortfolioImage333.svg";
 import img4 from "/static/media/PortfolioImage444.svg";
 import img5 from "/static/media/PortfolioImage555.svg";
-import pic1 from "/static/media/PortfolioImagedesign1.svg";
-import pic2 from "/static/media/PortfolioImagedesign11.svg";
-import pic3 from "/static/media/PortfolioImagedesign2.svg";
-import pic4 from "/static/media/PortfolioImagedesign22.svg";
-import pic5 from "/static/media/PortfolioImagedesign3.svg";
-import pic6 from "/static/media/PortfolioImagedesign33.svg";
-import pic7 from "/static/media/PortfolioImagedesign4.svg";
-import pic8 from "/static/media/PortfolioImagedesign44.svg";
-import pic9 from "/static/media/PortfolioImagedesign5.svg";
-import pic10 from "/static/media/PortfolioImagedesign55.svg";
+import pic1 from "/static/media/PortfolioImagedesign1.webp";
+import pic2 from "/static/media/PortfolioImagedesign11.webp";
+import pic3 from "/static/media/PortfolioImagedesign2.webp";
+import pic4 from "/static/media/PortfolioImagedesign22.webp";
+import pic5 from "/static/media/PortfolioImagedesign3.webp";
+import pic6 from "/static/media/PortfolioImagedesign33.webp";
+import pic7 from "/static/media/PortfolioImagedesign4.webp";
+import pic8 from "/static/media/PortfolioImagedesign44.webp";
+import pic9 from "/static/media/PortfolioImagedesign5.webp";
+import pic10 from "/static/media/PortfolioImagedesign55.webp";
 export const designData = [
     {
         img: pic1,

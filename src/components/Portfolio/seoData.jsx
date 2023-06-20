@@ -1,10 +1,10 @@
 import img1 from "/static/media/PortfolioImage111.svg";
-import pic1 from "/static/media/PortfolioImagePost1.svg";
-import pic2 from "/static/media/PortfolioImagePost11.svg";
-import pic3 from "/static/media/PortfolioImagePost3.svg";
-import pic4 from "/static/media/PortfolioImagePost33.svg";
-import pic5 from "/static/media/PortfolioImagePost4.svg";
-import pic6 from "/static/media/PortfolioImagePost44.svg";
+import pic1 from "/static/media/PortfolioImagePost1.webp";
+import pic2 from "/static/media/PortfolioImagePost11.webp";
+import pic3 from "/static/media/PortfolioImagePost3.webp";
+import pic4 from "/static/media/PortfolioImagePost33.webp";
+import pic5 from "/static/media/PortfolioImagePost4.webp";
+import pic6 from "/static/media/PortfolioImagePost44.webp";
 export const seoData = [
     {
         img: pic1,

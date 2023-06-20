@@ -6,8 +6,6 @@ import {
     AboutImage
 } from "./AboutElements";
 import pic1 from '/static/media/NewProjectButton.svg';
-import img2 from "/static/media/AboutBackground.svg";
-import img1 from "/static/media/AboutBackgroundMobile.svg";
 const AboutUs = () => {
     return (
         <>

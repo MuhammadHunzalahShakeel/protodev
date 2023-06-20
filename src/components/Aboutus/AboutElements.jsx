@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkS } from 'react-scroll';
 import img2 from "/static/media/AboutBackground.png";
-import img1 from "/static/media/AboutBackgroundMobile.svg";
 
 
 export const Link = styled(LinkS)`
@@ -13,7 +12,7 @@ export const Box = styled.div`
     display: flex;
     
     @media screen and (max-width: 820px) {
-        background-image: url(${img1});
+        background-image: url(${img2});
     }
 `;
 

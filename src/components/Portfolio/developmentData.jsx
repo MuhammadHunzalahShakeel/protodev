@@ -1,10 +1,10 @@
 import img1 from "/static/media/PortfolioImage333.svg";
-import pic1 from "/static/media/PortfolioImagedevelopment1.svg";
-import pic2 from "/static/media/PortfolioImagedevelopment11.svg";
-import pic3 from "/static/media/PortfolioImagedesign3.svg";
-import pic4 from "/static/media/PortfolioImagedesign33.svg";
-import pic5 from "/static/media/PortfolioImagedevelopment5.svg";
-import pic6 from "/static/media/PortfolioImagedevelopment55.svg";
+import pic1 from "/static/media/PortfolioImagedevelopment1.webp";
+import pic2 from "/static/media/PortfolioImagedevelopment11.webp";
+import pic3 from "/static/media/PortfolioImagedesign3.webp";
+import pic4 from "/static/media/PortfolioImagedesign33.webp";
+import pic5 from "/static/media/PortfolioImagedevelopment5.webp";
+import pic6 from "/static/media/PortfolioImagedevelopment55.webp";
 export const developmentData = [
     {
         img: pic1,
