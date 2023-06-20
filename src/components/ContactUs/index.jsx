@@ -46,11 +46,11 @@ const Contact = () => {
                 <span>Let's Discuss</span><br></br><span>Your </span><span style={{color: "#007aff"}}>Ideas</span>
                 <p>We love listening your ideas and we make sure that our clients are always satisfied with the services provided. Just tell us what you need and wait for the best results ever.</p>
                 <form ref={form} onSubmit={sendEmail}>
-                    <Right><input type="text" name='user_fullname' class="name"  placeholder="Full Name" required></input></Right>
-                    <Left><input type="email"  name='user_email' class="email" placeholder="Email Address" required/></Left>
-                    <Right><input type="text" name='user_subject' class="subject" placeholder="Subject" required/></Right>
-                    <Left><input type="text" name='user_budget' class="budget" placeholder="Budget" required/></Left>
-                    <Bottom><input type="text" name='message' class="message" placeholder="Message" required/></Bottom>
+                    <Right><input type="text" name="full_name" class="name"  placeholder="Full Name" required></input></Right>
+                    <Left><input type="email"  name="email_address" class="email" placeholder="Email Address" required/></Left>
+                    <Right><input type="text" name="subject" class="subject" placeholder="Subject" required/></Right>
+                    <Left><input type="text" name="budget" class="budget" placeholder="Budget" required/></Left>
+                    <Bottom><input type="text" name="message" class="message" placeholder="Message" required/></Bottom>
                     <button type="submit" style={{display:show}}>
                         <Column2Image src={img2}></Column2Image>
                     </button>
